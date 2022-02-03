@@ -2,6 +2,10 @@
 
 <h2>I'm Florian</h2>
 
+<h3> Where am I ? </h3>
+- 📍 France / Provins (near Paris)
+- 💻 🌍 Remote from France
+
 <h3> 👨🏻‍💻 About Me </h3>
 
 Passionate since my youngest age, deeply geek, I have the chance to exercise my passion on a daily basis: solving all types of problems by combining the power of the human mind and the machine thanks to technologies! Still learning and reading books or interacting with people from all walks of life, i’m curious and like to learn and "go to bed less stupid than the day before!"
