@@ -3,6 +3,7 @@
 <h2>I'm Florian</h2>
 
 <h3> Where am I ? </h3>
+
 - 📍 France / Provins (near Paris)
 - 💻 🌍 Remote from France
 
