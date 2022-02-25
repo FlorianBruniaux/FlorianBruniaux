@@ -7,6 +7,10 @@
 - 📍 France / Provins (near Paris)
 - 💻 🌍 Remote from France
 
+<h3>I'm recruiting</h3
+  
+I you want to work with me [click here](https://cooptation.hellotrusty.io/295797928/jobs) !
+
 <h3> 👨🏻‍💻 About Me </h3>
 
 Passionate since my youngest age, deeply geek, I have the chance to exercise my passion on a daily basis: solving all types of problems by combining the power of the human mind and the machine thanks to technologies! Still learning and reading books or interacting with people from all walks of life, i’m curious and like to learn and "go to bed less stupid than the day before!"
