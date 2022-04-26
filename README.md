@@ -20,7 +20,7 @@ I apply leadership based on transparency and energy. I unite and protect my team
 Demanding, I am used to taking ownership of multiple key projects (organizational and technical). Rational and pragmatic, I like to explain with facts and figures while knowing how to trust my intuition.
 
 - 🎓 &nbsp; Computer engineering degree / French Engineer school @[UTT](https://www.utt.fr/) 
-- 💼 &nbsp;  Tech leader with > 8 years XP. Currently Engineering Manager @[Cheerz](https://www.cheerz.com/fr)
+- 💼 &nbsp;  Tech leader with > 8 years XP. Currently VP of Engineering @[Cheerz](https://www.cheerz.com/fr)
 - 🛠 &nbsp; Fullstack developper - Infra/Cloud & Back specialization 
 - 🌱 &nbsp; Saas / E-commerce / Data / B2B & B2C
 
