@@ -7,11 +7,19 @@
 - 📍 France / Provins (near Paris)
 - 💻 🌍 Remote from France
 
-<h3>I'm recruiting</h3
-  
-I you want to work with me [click here](https://cooptation.hellotrusty.io/295797928/jobs) !
-
 <h3> 👨🏻‍💻 About Me </h3>
+
+💼 10+ xp in tech ecosystem :
+- 🎓 &nbsp; Computer engineering degree / French Engineer school @[UTT](https://www.utt.fr/) 
+- 🎩 Leadership : Attract talent & onboard them, scale company processes, build & develop engineering culture, tech & human problem solving, mentor & coach, improve team efficiency & velocity, animate passion through events (meetups, workshops...). Replays of previous meetups : https://bit.ly/3g7VmBh
+- 💻 Tech : Fullstack developper, preference for backend (typescript / ruby / python & SQL databases)  & infra
+- 🛠 Product : Already built and maintained several SAAS tools and solutions (B2B, B2C) & cross device (web, mobile) in agile methodology (kanban, scrum, scrumban)
+- 🕸️ Domains : Saas / E-commerce / Data / B2B & B2C
+- 👷 Roles : CTPO / CTO / VP of engineering / engineering manager / software engineer
+- 🌱 -> 🌳 : Company stages & roles : Early stage & post seed (as hands-on CTO, CTPO) , post A serie (as CTO), scale-up & Post buyout (as EM, VP eng), SMEs (dev, lead dev)
+- 🧑‍🤝‍🧑 ompany & team size : from 4 to 150 people, built & scale several teams from scratch, managed and support up to 30 tech people
+- 🧑‍🤝‍🧑 Teams topologies : hybrid & full remote teams, distributed in several countries, core teams / multidisciplinary squads..
+- 🌐 Languages : fluent in French & English
 
 Passionate since my youngest age, deeply geek, I have the chance to exercise my passion on a daily basis: solving all types of problems by combining the power of the human mind and the machine thanks to technologies! Still learning and reading books or interacting with people from all walks of life, i’m curious and like to learn and "go to bed less stupid than the day before!"
 
@@ -19,17 +27,10 @@ I apply leadership based on transparency and energy. I unite and protect my team
 
 Demanding, I am used to taking ownership of multiple key projects (organizational and technical). Rational and pragmatic, I like to explain with facts and figures while knowing how to trust my intuition.
 
-- 🎓 &nbsp; Computer engineering degree / French Engineer school @[UTT](https://www.utt.fr/) 
-- 💼 &nbsp;  Tech leader with almost 10 years of experience in IT. Currently VP of Engineering @[Cheerz](https://www.cheerz.com/fr)
-- 🎩 Leadership : Attract talent & onboard them, scale company processes, build & develop engineering culture, tech & human problem solving, mentor & coach, improve team efficiency & velocity
-- 🛠 &nbsp; Fullstack developper, mainly proficiency with Infra & Back 
-- 🌱 &nbsp; Saas / E-commerce / Data / B2B & B2C
-
-
 <h3>🛠 Tech Stack</h3>
 
-- 💻 &nbsp; **Stack** &nbsp;: Ruby (Ruby on Rails), Python (Data & Dev), Php (Symfony), Javascript (Node, React, AngularJs, Backbone), BDD (SQL, NoSQL), Ops (AWS, GCP, Docker , K8S, Elasticsearch, NewRelic, Datadog), Apis (GraphQl, Rest, Soap, GRPC) .
-- 🌐 &nbsp; **Infra & Cloud** &nbsp;: AWS, GCP, OVH, baremetal in house… I touched on a few GCP services but less than on other cloud providers.
+- 💻 &nbsp; **Stack** &nbsp;: Typescript (next.js 13+, nest.js), Ruby (Ruby on Rails), Python (Data & Dev), Php (Symfony), Javascript (Node, React, AngularJs, Backbone), BDD (SQL, NoSQL), Ops (AWS, GCP, Docker , K8S, Elasticsearch, NewRelic, Datadog), Apis (GraphQl, Rest, Soap, GRPC) .
+- 🌐 &nbsp; **Infra & Cloud** &nbsp;: AWS, GCP, Vercel, Heroku, OVH, baremetal in house… I touched on a few GCP services but less than on other cloud providers.
 
 <h3>📚 Some books</h3>
 Clean Architecture, The 25th hour, Reinventing organization, Lean startup, Disruption, Getting to yes, Big data and Machine learning, The five disfunctions of a team, Radical Candor, The tao of coaching, The phoenix project, The manager's path...
