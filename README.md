@@ -1,9 +1,9 @@
 # Florian Bruniaux
 
-**CTO, 12 ans de tech.** Ex-VP/EM revenu volontairement hands-on.
+**CTO, 12 years in tech.** Ex-VP/EM, chose to go back hands-on.
 Founding Engineer @ [Méthode Aristote](https://methode-aristote.fr/) (EdTech + AI)
 
-Direct, bienveillant, énergique. Toujours 3 projets en parallèle.
+Direct, kind, energetic. Always 3 projects running.
 
 ---
 
