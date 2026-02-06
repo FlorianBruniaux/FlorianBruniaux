@@ -11,7 +11,7 @@ Direct, kind, energetic. Always 3 projects running.
 
 ### [Claude Code Ultimate Guide](https://github.com/FlorianBruniaux/claude-code-ultimate-guide)
 Comprehensive resource for AI-assisted development with Claude Code.
-**86 stars** · 257 quiz questions · ~16K lines of documentation · Maintained actively
+**86 stars** · 257 quiz questions · ~16K lines of documentation · [Landing page](https://florianbruniaux.github.io/claude-code-ultimate-guide-landing)
 
 ### [Claude Cowork Guide](https://github.com/FlorianBruniaux/claude-cowork-guide)
 AI workflows for knowledge workers and non-technical users. Business use cases, meeting summaries, email drafts.
@@ -29,7 +29,7 @@ CLI proxy reducing LLM token consumption by 60-90% on common dev operations.
 
 ## Current Focus
 
-- Building tech at Méthode Aristote (TypeScript/Next.js, tRPC, Prisma, AI integration)
+- Building tech at [Méthode Aristote](https://methode-aristote.fr/) (TypeScript/Next.js, tRPC, Prisma, AI integration)
 - AI-assisted development workflows (Claude Code, MCP servers, prompt engineering)
 - Open-source tooling for developer experience
 
