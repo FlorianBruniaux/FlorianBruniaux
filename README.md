@@ -19,7 +19,7 @@ AI workflows for knowledge workers and non-technical users. Business use cases, 
 
 ### [RTK - Rust Token Killer](https://github.com/FlorianBruniaux/rtk)
 CLI proxy reducing LLM token consumption by 60-90% on common dev operations.
-**Fork** with extended features: git, GitHub, pnpm, vitest, Next.js, TypeScript
+**Fork** of [rtk-ai/rtk](https://github.com/rtk-ai/rtk) with extended features: git, GitHub, pnpm, vitest, Next.js, TypeScript
 
 ### Current Projects
 - **MCP Guide Assistant** — AI-powered documentation navigator for Model Context Protocol
