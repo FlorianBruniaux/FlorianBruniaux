@@ -1,66 +1,70 @@
-### Hi there 👋
+# Florian Bruniaux
 
-  <h2>I'm Florian</h2>
+**CTO, 12 ans de tech.** Ex-VP/EM revenu volontairement hands-on.
+Founding Engineer @ [Méthode Aristote](https://methode-aristote.fr/) (EdTech + AI)
 
-  <h3> Where am I ? </h3>
+Direct, bienveillant, énergique. Toujours 3 projets en parallèle.
 
-  - 📍 France / Provins (near Paris)
-  - 💻 🌍 Remote from France
-  - 🚀 Currently **Founding Engineer** @ [Méthode Aristote](https://methode-aristote.fr/) (part of Cartesia Education group)
-  - 🔗 [LinkedIn](https://www.linkedin.com/in/florian-bruniaux-43408b83/)
+---
 
-  <h3> 👨🏻‍💻 About Me </h3>
+## What I Build
 
-  💼 **11+ years in tech ecosystem** — After a decade in leadership roles (CTO, VP Engineering, Engineering Manager), I've deliberately gone back to being **hands-on as a Founding/Staff Engineer**. Why? To sharpen my technical edge and come back to leadership stronger.
+### [Claude Code Ultimate Guide](https://github.com/FlorianBruniaux/claude-code-ultimate-guide)
+Comprehensive resource for AI-assisted development with Claude Code.
+**86 stars** · 257 quiz questions · ~16K lines of documentation · Maintained actively
 
-  🤖 **AI-first mindset**: I've fully embraced the AI revolution and use it daily in my workflow. Check out my [Claude Code Ultimate Guide](https://github.com/FlorianBruniaux/claude-code-ultimate-guide) — a comprehensive resource for mastering AI-assisted development.
+### [Claude Cowork Guide](https://github.com/FlorianBruniaux/claude-cowork-guide)
+AI workflows for knowledge workers and non-technical users. Business use cases, meeting summaries, email drafts.
+**6 stars** · 43 workflows · 70 prompts · [Landing page](https://florianbruniaux.github.io/claude-cowork-guide-landing)
 
-  **My journey:**
-  - 🎓 &nbsp; Computer engineering degree / French Engineer school @[UTT](https://www.utt.fr/)
-  - 🎩 **Leadership** : Attract talent & onboard them, scale company processes, build & develop engineering culture, tech & human problem solving, mentor & coach, improve team efficiency & velocity, animate passion through events (meetups, workshops...). Replays of previous meetups : https://bit.ly/3g7VmBh
-  - 💻 **Tech** : Fullstack developer, preference for backend (TypeScript / Ruby / Python & SQL databases) & infra (AWS/GCP, serverless, Kubernetes)
-  - 🛠 **Product** : Built and maintained several SAAS tools and solutions (B2B, B2C) & cross device (web, mobile) in agile methodology
-  - 🕸️ **Domains** : SaaS / E-commerce / Data / B2B & B2C / EdTech / AI
-  - 👷 **Roles** : Founding Engineer / CTPO / CTO / VP of Engineering / Engineering Manager / Staff Engineer
-  - 🌱 → 🌳 **Company stages** : Early stage & post seed (hands-on CTO, CTPO), post Series A (CTO), scale-up & post buyout (EM, VP Eng), SMEs
-  - 🧑‍🤝‍🧑 **Team size** : from 4 to 150 people, built & scaled several teams from scratch, managed up to 30 tech people
-  - 🌐 **Languages** : Fluent in French & English
+### [RTK - Rust Token Killer](https://github.com/FlorianBruniaux/rtk)
+CLI proxy reducing LLM token consumption by 60-90% on common dev operations.
+**Fork** with extended features: git, GitHub, pnpm, vitest, Next.js, TypeScript
 
-  Passionate since my youngest age, deeply geek, I solve problems by combining the power of the human mind and the machine. Still learning every day — I like to "go to bed less stupid than the day before!"
+### Current Projects
+- **MCP Guide Assistant** — AI-powered documentation navigator for Model Context Protocol
+- **CCBoard** — TUI/Web dashboard for Claude Code monitoring
 
-  <h3>🛠 Tech Stack</h3>
+---
 
-  - 💻 &nbsp; **Stack** : TypeScript (Next.js 14+, Nest.js, tRPC), Ruby (Rails), Python (Data & AI), SQL & NoSQL databases
-  - 🤖 &nbsp; **AI** : Claude, GPT, AI-assisted development workflows, prompt engineering
-  - 🌐 &nbsp; **Infra & Cloud** : AWS, GCP, Vercel, Docker, Kubernetes, serverless architectures
+## Current Focus
 
-  <h3>📚 Some books</h3>
+- Building tech at Méthode Aristote (TypeScript/Next.js, tRPC, Prisma, AI integration)
+- AI-assisted development workflows (Claude Code, MCP servers, prompt engineering)
+- Open-source tooling for developer experience
 
-  Clean Architecture, The Manager's Path, The Phoenix Project, Radical Candor, The Five Dysfunctions of a Team, Lean Startup, Living Documentation, The Tao of Coaching...
+---
 
-  <h3>🔥 Current Focus</h3>
+## Background
 
-  - Building the tech behind [Méthode Aristote](https://methode-aristote.fr/) — reinventing tutoring with AI
-  - Exploring and documenting AI-assisted development best practices
-  - Staying hands-on to level up before my next leadership chapter
+**12+ years:** Developer → Team Lead → EM → VP Engineering → CTO → back to hands-on by choice.
 
-  <h3>Passions</h3>
+**Why hands-on?** After a decade leading teams (4-150 people, managed up to 30 engineers), I deliberately stepped back to sharpen my technical edge. Leadership is more effective when grounded in current engineering reality.
 
-  - 🏠🔨 **Renovating houses** (masonry, roofing, earthwork... not just decoration!)
-  - 🎒 **Hiking** with my family and my dog 🐶 `Java`
-  - 👨‍👦‍👦 **Playing with my sons** (still waiting to justify that Death Star Lego purchase... 😅)
-  - 🍷 **Oenology** (~300 bottles in the cellar)
+**Leadership experience:**
+- Built and scaled engineering teams from scratch (early-stage → Series A → scale-up)
+- Shaped engineering culture, processes, hiring, mentorship
+- Led across SaaS, E-commerce, Data, EdTech domains
 
-  <h3>Resources</h3>
+**Tech:**
+- **Stack:** TypeScript (Next.js 14+, Nest.js, tRPC), Ruby (Rails), Python, SQL/NoSQL
+- **AI:** Claude, GPT, AI-assisted workflows, MCP development
+- **Infra:** AWS, GCP, Vercel, Docker, Kubernetes, serverless
+- **Domains:** Fullstack (backend preference), product development, technical architecture
 
-  - 🤖 [Claude Code Ultimate Guide](https://github.com/FlorianBruniaux/claude-code-ultimate-guide) — My comprehensive guide on AI-assisted development
-  - 📚 Technical proofreader for: [Backbone.js Patterns](https://books.google.fr/books?id=PBuxAgAAQBAJ), [JavaScript Regular Expressions](https://books.google.fr/books?id=6SizCQAAQBAJ), [Mastering Grunt](https://www.google.fr/books/edition/Mastering_Grunt/Uo3DoAEACAAJ)
-  - 🎥 [Video presenting my Cheerz scope](https://www.youtube.com/watch?v=6ZHoKCgLjYI)
+**Formation:** Computer Engineering @[UTT](https://www.utt.fr/)
+**Languages:** French, English
 
-  <h3> 🤝🏻 Connect with Me </h3>
+---
 
-  <p align="center">
-  &nbsp; <a href="https://www.linkedin.com/in/florian-bruniaux-43408b83/" target="_blank" rel="noopener noreferrer"><img src="https://img.icons8.com/plasticine/100/000000/linkedin.png" width="50" /></a>
-  </p>
+## Links
 
-  ⭐️ From [FlorianBruniaux](https://github.com/FlorianBruniaux)
+- 📂 [Claude Code Ultimate Guide](https://github.com/FlorianBruniaux/claude-code-ultimate-guide)
+- 💼 [Claude Cowork Guide](https://github.com/FlorianBruniaux/claude-cowork-guide)
+- 🦀 [RTK - Rust Token Killer](https://github.com/FlorianBruniaux/rtk)
+- 🔗 [LinkedIn](https://www.linkedin.com/in/florian-bruniaux-43408b83/)
+- 🎥 [Cheerz Product Demo](https://www.youtube.com/watch?v=6ZHoKCgLjYI) (previous work)
+
+---
+
+*Side note:* Renovating houses (masonry, roofing, earthwork), hiking with my family and Java the dog 🐶, collecting wine (~300 bottles).
