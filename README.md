@@ -59,7 +59,7 @@ CLI proxy reducing LLM token consumption by 60-90% on common dev operations.
 
 ## Links
 
-- 🌐 [florian.bruniaux.com](https://florian.bruniaux.com/) (coming soon)
+- 🌐 [florian.bruniaux.com](https://www.florian.bruniaux.com/)
 - 📂 [Claude Code Ultimate Guide](https://github.com/FlorianBruniaux/claude-code-ultimate-guide)
 - 💼 [Claude Cowork Guide](https://github.com/FlorianBruniaux/claude-cowork-guide)
 - 🦀 [RTK - Rust Token Killer](https://github.com/FlorianBruniaux/rtk)
