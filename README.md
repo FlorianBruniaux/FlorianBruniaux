@@ -11,11 +11,11 @@ Direct, kind, energetic. Always 3 projects running.
 
 ### [Claude Code Ultimate Guide](https://github.com/FlorianBruniaux/claude-code-ultimate-guide)
 Comprehensive resource for AI-assisted development with Claude Code.
-**86 stars** · 257 quiz questions · ~16K lines of documentation · [Landing page](https://florianbruniaux.github.io/claude-code-ultimate-guide-landing)
+**86 stars** · 257 quiz questions · ~16K lines of documentation · [cc.bruniaux.com](https://cc.bruniaux.com)
 
 ### [Claude Cowork Guide](https://github.com/FlorianBruniaux/claude-cowork-guide)
 AI workflows for knowledge workers and non-technical users. Business use cases, meeting summaries, email drafts.
-**6 stars** · 43 workflows · 70 prompts · [Landing page](https://florianbruniaux.github.io/claude-cowork-guide-landing)
+**6 stars** · 43 workflows · 70 prompts · [cowork.bruniaux.com](https://cowork.bruniaux.com)
 
 ### [RTK - Rust Token Killer](https://github.com/FlorianBruniaux/rtk)
 CLI proxy reducing LLM token consumption by 60-90% on common dev operations.
@@ -59,9 +59,10 @@ CLI proxy reducing LLM token consumption by 60-90% on common dev operations.
 
 ## Links
 
-- 🌐 [florian.bruniaux.com](https://www.florian.bruniaux.com/)
-- 📂 [Claude Code Ultimate Guide](https://github.com/FlorianBruniaux/claude-code-ultimate-guide)
-- 💼 [Claude Cowork Guide](https://github.com/FlorianBruniaux/claude-cowork-guide)
+- 🌐 [florian.bruniaux.com](https://florian.bruniaux.com/) — Portfolio
+- 📂 [cc.bruniaux.com](https://cc.bruniaux.com) — Claude Code Ultimate Guide
+- 💼 [cowork.bruniaux.com](https://cowork.bruniaux.com) — Claude Cowork Guide
+- 🌉 [ccbridge.bruniaux.com](https://ccbridge.bruniaux.com) — CC-Copilot Bridge
 - 🦀 [RTK - Rust Token Killer](https://github.com/FlorianBruniaux/rtk)
 - 🔗 [LinkedIn](https://www.linkedin.com/in/florian-bruniaux-43408b83/)
 - 🎥 [Cheerz Product Demo](https://www.youtube.com/watch?v=6ZHoKCgLjYI) (previous work)
