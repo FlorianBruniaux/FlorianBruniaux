@@ -7,18 +7,6 @@ Direct, kind, energetic. Always 8 projects running.
 
 ---
 
-## StarMapper
-
-<a href="https://starmapper.bruniaux.com/FlorianBruniaux/FlorianBruniaux">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://starmapper.bruniaux.com/api/map-image/FlorianBruniaux/FlorianBruniaux?theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://starmapper.bruniaux.com/api/map-image/FlorianBruniaux/FlorianBruniaux?theme=light" />
-    <img alt="StarMapper — see who stars this repo on a world map" src="https://starmapper.bruniaux.com/api/map-image/FlorianBruniaux/FlorianBruniaux" />
-  </picture>
-</a>
-
----
-
 ## What I Build
 
 ### [Claude Code Ultimate Guide](https://github.com/FlorianBruniaux/claude-code-ultimate-guide)
