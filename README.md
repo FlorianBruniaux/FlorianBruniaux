@@ -28,14 +28,15 @@ CLI proxy that reduces LLM token consumption by 60-90% on common dev operations.
 | **[Claude Cowork Guide](https://github.com/FlorianBruniaux/claude-cowork-guide)** | AI workflows for knowledge workers and non-technical users — 28 workflows, 70 copy-paste prompts | [cowork.bruniaux.com](https://cowork.bruniaux.com) |
 | **[StarMapper](https://starmapper.bruniaux.com)** | Map your GitHub stargazers on an interactive world map. Next.js + MapLibre + Neon Postgres | [starmapper.bruniaux.com](https://starmapper.bruniaux.com) |
 | **[CC-Sessions](https://github.com/FlorianBruniaux/cc-sessions)** | CLI to index and search Claude Code session history. Zero dependencies, under 200ms on 1300+ sessions | GitHub |
-| **[node-dep-scope](https://github.com/FlorianBruniaux/node-dep-scope)** | Granular Node.js/TypeScript dependency analyzer: used symbols per package, native alternatives, duplicates | GitHub |
+| **[dep-scope](https://github.com/FlorianBruniaux/node-dep-scope)** | Granular Node.js/TypeScript dependency analyzer: used symbols per package, native alternatives, duplicates. Ships an MCP server listed on the official MCP Registry | [npm](https://www.npmjs.com/package/@florianbruniaux/dep-scope) |
+| **[claude-code-plugins](https://github.com/FlorianBruniaux/claude-code-plugins)** | 181 Claude Code templates as installable plugins: security-suite, devops-pipeline, code-quality, release-automation, pr-workflow, session-tools, ai-methodology, session-summary | GitHub |
 
 ---
 
 ## Current Focus
 
 - AI Founding Engineer at [Méthode Aristote](https://methode-aristote.fr/) (TypeScript/Next.js, tRPC, Prisma, AI integration)
-- Building and maintaining the Claude Code open-source ecosystem (guide + RTK + ccboard + 5 tools)
+- Building and maintaining the Claude Code open-source ecosystem (guide + RTK + ccboard + 6 tools)
 - Workshops on AI-assisted development for dev teams
 - AI enthusiast building in public — 13,000+ combined stars across AI tooling projects in 3 months
 
