@@ -30,13 +30,14 @@ CLI proxy that reduces LLM token consumption by 60-90% on common dev operations.
 | **[CC-Sessions](https://github.com/FlorianBruniaux/cc-sessions)** | CLI to index and search Claude Code session history. Zero dependencies, under 200ms on 1300+ sessions | GitHub |
 | **[dep-scope](https://github.com/FlorianBruniaux/node-dep-scope)** | Granular Node.js/TypeScript dependency analyzer: used symbols per package, native alternatives, duplicates. Ships an MCP server listed on the official MCP Registry | [npm](https://www.npmjs.com/package/@florianbruniaux/dep-scope) |
 | **[claude-code-plugins](https://github.com/FlorianBruniaux/claude-code-plugins)** | 181 Claude Code templates as installable plugins: security-suite, devops-pipeline, code-quality, release-automation, pr-workflow, session-tools, ai-methodology, session-summary | GitHub |
+| **[ctxharness](https://github.com/FlorianBruniaux/ctxharness)** | AI documentation drift detector — checks that versions, instructions, and context assembly in CLAUDE.md/AGENTS.md match code reality. 19 extractors, 15 scanners, score/fix/doctor CLI | GitHub |
 
 ---
 
 ## Current Focus
 
 - AI Founding Engineer at [Méthode Aristote](https://methode-aristote.fr/) (TypeScript/Next.js, tRPC, Prisma, AI integration)
-- Building and maintaining the Claude Code open-source ecosystem (guide + RTK + ccboard + 6 tools)
+- Building and maintaining the Claude Code open-source ecosystem (guide + RTK + ccboard + 7 tools)
 - Workshops on AI-assisted development for dev teams
 - AI enthusiast building in public — 13,000+ combined stars across AI tooling projects in 3 months
 
@@ -46,7 +47,7 @@ CLI proxy that reduces LLM token consumption by 60-90% on common dev operations.
 
 **12+ years:** Developer → Team Lead → EM → VP Engineering → CTO → back to hands-on by choice.
 
-**Why hands-on?** After a decade leading teams (4-150 people, managed up to 30 engineers), I deliberately stepped back to sharpen my technical edge. Leadership is more effective when grounded in current engineering reality. In the first 3 months of 2026, that bet produced 8 open-source projects and 13,000+ combined GitHub stars.
+**Why hands-on?** After a decade leading teams (4-150 people, managed up to 30 engineers), I deliberately stepped back to sharpen my technical edge. Leadership is more effective when grounded in current engineering reality. In the first 3 months of 2026, that bet produced 10 open-source projects and 13,000+ combined GitHub stars.
 
 **Leadership experience:**
 - Built and scaled engineering teams from scratch (early-stage → Series A → scale-up)
