@@ -17,6 +17,10 @@ Comprehensive resource for AI-assisted development with Claude Code. Documentati
 CLI proxy that reduces LLM token consumption by 60-90% on common dev operations. Intercepts Git, GitHub CLI, Cargo, pnpm, Vitest, Playwright, Docker, Kubernetes and compresses output to what actually matters.
 **11,000+ stars** · Main contributor · [rtk-ai.app](https://www.rtk-ai.app)
 
+### [StarMapper](https://github.com/FlorianBruniaux/starmapper)
+Map any GitHub repository's stargazers on an interactive world map. Paste a repo URL, get a live geocoded map with clustering, country stats, and an embeddable badge. Next.js + MapLibre + Neon Postgres.
+[starmapper.bruniaux.com](https://starmapper.bruniaux.com)
+
 ---
 
 ### Open-Source Tools
@@ -25,12 +29,11 @@ CLI proxy that reduces LLM token consumption by 60-90% on common dev operations.
 |---------|-------------|------|
 | **[CCBoard](https://github.com/FlorianBruniaux/ccboard)** | Dual TUI/Web dashboard for Claude Code monitoring. Single Rust binary, 472 tests, 89x cache speedup | [ccboard.bruniaux.com](https://ccboard.bruniaux.com) |
 | **[CC-Copilot Bridge](https://github.com/FlorianBruniaux/cc-copilot-bridge)** | Multi-provider router: switch Claude Code between Anthropic, GitHub Copilot (unlimited), and Ollama local | [ccbridge.bruniaux.com](https://ccbridge.bruniaux.com) |
-| **[Claude Cowork Guide](https://github.com/FlorianBruniaux/claude-cowork-guide)** | AI workflows for knowledge workers and non-technical users — 28 workflows, 70 copy-paste prompts | [cowork.bruniaux.com](https://cowork.bruniaux.com) |
-| **[StarMapper](https://starmapper.bruniaux.com)** | Map your GitHub stargazers on an interactive world map. Next.js + MapLibre + Neon Postgres | [starmapper.bruniaux.com](https://starmapper.bruniaux.com) |
+| **[Claude Cowork Guide](https://github.com/FlorianBruniaux/claude-cowork-guide)** | AI workflows for knowledge workers and non-technical users  -  28 workflows, 70 copy-paste prompts | [cowork.bruniaux.com](https://cowork.bruniaux.com) |
 | **[CC-Sessions](https://github.com/FlorianBruniaux/cc-sessions)** | CLI to index and search Claude Code session history. Zero dependencies, under 200ms on 1300+ sessions | GitHub |
 | **[dep-scope](https://github.com/FlorianBruniaux/node-dep-scope)** | Granular Node.js/TypeScript dependency analyzer: used symbols per package, native alternatives, duplicates. Ships an MCP server listed on the official MCP Registry | [npm](https://www.npmjs.com/package/@florianbruniaux/dep-scope) |
 | **[claude-code-plugins](https://github.com/FlorianBruniaux/claude-code-plugins)** | 181 Claude Code templates as installable plugins: security-suite, devops-pipeline, code-quality, release-automation, pr-workflow, session-tools, ai-methodology, session-summary | GitHub |
-| **[ctxharness](https://github.com/FlorianBruniaux/ctxharness)** | AI documentation drift detector — checks that versions, instructions, and context assembly in CLAUDE.md/AGENTS.md match code reality. 19 extractors, 15 scanners, score/fix/doctor CLI | GitHub |
+| **[ctxharness](https://github.com/FlorianBruniaux/ctxharness)** | AI documentation drift detector  -  checks that versions, instructions, and context assembly in CLAUDE.md/AGENTS.md match code reality. 19 extractors, 15 scanners, score/fix/doctor CLI | GitHub |
 
 ---
 
@@ -39,7 +42,7 @@ CLI proxy that reduces LLM token consumption by 60-90% on common dev operations.
 - AI Founding Engineer at [Méthode Aristote](https://methode-aristote.fr/) (TypeScript/Next.js, tRPC, Prisma, AI integration)
 - Building and maintaining the Claude Code open-source ecosystem (guide + RTK + ccboard + 7 tools)
 - Workshops on AI-assisted development for dev teams
-- AI enthusiast building in public — 13,000+ combined stars across AI tooling projects in 3 months
+- AI enthusiast building in public: 13,000+ combined stars across AI tooling projects in 3 months
 
 ---
 
@@ -67,13 +70,13 @@ CLI proxy that reduces LLM token consumption by 60-90% on common dev operations.
 
 ## Links
 
-- 🌐 [florian.bruniaux.com](https://florian.bruniaux.com/) — Portfolio
-- 📂 [cc.bruniaux.com](https://cc.bruniaux.com) — Claude Code Ultimate Guide
-- 💼 [cowork.bruniaux.com](https://cowork.bruniaux.com) — Claude Cowork Guide
-- 🗺️ [starmapper.bruniaux.com](https://starmapper.bruniaux.com) — StarMapper
-- 📊 [ccboard.bruniaux.com](https://ccboard.bruniaux.com) — CCBoard
-- 🌉 [ccbridge.bruniaux.com](https://ccbridge.bruniaux.com) — CC-Copilot Bridge
-- 🦀 [rtk-ai.app](https://www.rtk-ai.app) — RTK - Rust Token Killer
+- 🌐 [florian.bruniaux.com](https://florian.bruniaux.com/)  -  Portfolio
+- 📂 [cc.bruniaux.com](https://cc.bruniaux.com)  -  Claude Code Ultimate Guide
+- 💼 [cowork.bruniaux.com](https://cowork.bruniaux.com)  -  Claude Cowork Guide
+- 🗺️ [starmapper.bruniaux.com](https://starmapper.bruniaux.com)  -  StarMapper
+- 📊 [ccboard.bruniaux.com](https://ccboard.bruniaux.com)  -  CCBoard
+- 🌉 [ccbridge.bruniaux.com](https://ccbridge.bruniaux.com)  -  CC-Copilot Bridge
+- 🦀 [rtk-ai.app](https://www.rtk-ai.app)  -  RTK - Rust Token Killer
 - 🔗 [LinkedIn](https://www.linkedin.com/in/florian-bruniaux-43408b83/)
 
 ---
