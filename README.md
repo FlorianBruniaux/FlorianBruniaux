@@ -7,6 +7,17 @@ Direct, kind, energetic. Always 8 projects running.
 
 ---
 
+## Current Focus
+
+- AI Founding Engineer at [Méthode Aristote](https://methode-aristote.fr/) (TypeScript/Next.js, tRPC, Prisma, AI integration)
+- Building and maintaining the Claude Code open-source ecosystem (guide + RTK + ccboard + 7 tools)
+- Workshops on AI-assisted development for dev teams
+- Occasional speaker at conferences, live streams, talks, BBLs and podcasts ([media](https://www.florian.bruniaux.com/media/))
+- Writing about AI-assisted engineering on my [blog](https://www.florian.bruniaux.com/blog/)
+- AI enthusiast building in public: 5,000+ stars across my own AI tooling projects, plus core team on RTK (60,000+ stars)
+
+---
+
 ## What I Build
 
 ### [Claude Code Ultimate Guide](https://github.com/FlorianBruniaux/claude-code-ultimate-guide)
@@ -34,17 +45,6 @@ Map any GitHub repository's stargazers on an interactive world map. Paste a repo
 | **[dep-scope](https://github.com/FlorianBruniaux/node-dep-scope)** | Granular Node.js/TypeScript dependency analyzer: used symbols per package, native alternatives, duplicates. Ships an MCP server listed on the official MCP Registry | [npm](https://www.npmjs.com/package/@florianbruniaux/dep-scope) |
 | **[claude-code-plugins](https://github.com/FlorianBruniaux/claude-code-plugins)** | 181 Claude Code templates as installable plugins: security-suite, devops-pipeline, code-quality, release-automation, pr-workflow, session-tools, ai-methodology, session-summary | GitHub |
 | **[ctxharness](https://github.com/FlorianBruniaux/ctxharness)** | AI documentation drift detector  -  checks that versions, instructions, and context assembly in CLAUDE.md/AGENTS.md match code reality. 19 extractors, 15 scanners, score/fix/doctor CLI | GitHub |
-
----
-
-## Current Focus
-
-- AI Founding Engineer at [Méthode Aristote](https://methode-aristote.fr/) (TypeScript/Next.js, tRPC, Prisma, AI integration)
-- Building and maintaining the Claude Code open-source ecosystem (guide + RTK + ccboard + 7 tools)
-- Workshops on AI-assisted development for dev teams
-- Occasional speaker at conferences, live streams, talks, BBLs and podcasts ([media](https://www.florian.bruniaux.com/media/))
-- Writing about AI-assisted engineering on my [blog](https://www.florian.bruniaux.com/blog/)
-- AI enthusiast building in public: 5,000+ stars across my own AI tooling projects, plus core team on RTK (60,000+ stars)
 
 ---
 
