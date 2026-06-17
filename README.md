@@ -11,11 +11,11 @@ Direct, kind, energetic. Always 8 projects running.
 
 ### [Claude Code Ultimate Guide](https://github.com/FlorianBruniaux/claude-code-ultimate-guide)
 Comprehensive resource for AI-assisted development with Claude Code. Documentation-as-product: 271 quiz questions, 225 production-ready templates, 11 whitepapers (472 pages), threat DB with 655+ catalogued malicious skills.
-**2,000+ stars** · **300+ forks** · [cc.bruniaux.com](https://cc.bruniaux.com)
+**5,000+ stars** · **600+ forks** · [cc.bruniaux.com](https://cc.bruniaux.com)
 
 ### [RTK - Rust Token Killer](https://github.com/rtk-ai/rtk)
 CLI proxy that reduces LLM token consumption by 60-90% on common dev operations. Intercepts Git, GitHub CLI, Cargo, pnpm, Vitest, Playwright, Docker, Kubernetes and compresses output to what actually matters.
-**11,000+ stars** · Main contributor · [rtk-ai.app](https://www.rtk-ai.app)
+**60,000+ stars** · Core team member & evangelist · [rtk-ai.app](https://www.rtk-ai.app)
 
 ### [StarMapper](https://github.com/FlorianBruniaux/starmapper)
 Map any GitHub repository's stargazers on an interactive world map. Paste a repo URL, get a live geocoded map with clustering, country stats, and an embeddable badge. Next.js + MapLibre + Neon Postgres.
@@ -42,7 +42,7 @@ Map any GitHub repository's stargazers on an interactive world map. Paste a repo
 - AI Founding Engineer at [Méthode Aristote](https://methode-aristote.fr/) (TypeScript/Next.js, tRPC, Prisma, AI integration)
 - Building and maintaining the Claude Code open-source ecosystem (guide + RTK + ccboard + 7 tools)
 - Workshops on AI-assisted development for dev teams
-- AI enthusiast building in public: 13,000+ combined stars across AI tooling projects in 3 months
+- AI enthusiast building in public: 5,000+ stars across my own AI tooling projects, plus core team on RTK (60,000+ stars)
 
 ---
 
@@ -50,7 +50,7 @@ Map any GitHub repository's stargazers on an interactive world map. Paste a repo
 
 **12+ years:** Developer → Team Lead → EM → VP Engineering → CTO → back to hands-on by choice.
 
-**Why hands-on?** After a decade leading teams (4-150 people, managed up to 30 engineers), I deliberately stepped back to sharpen my technical edge. Leadership is more effective when grounded in current engineering reality. In the first 3 months of 2026, that bet produced 10 open-source projects and 13,000+ combined GitHub stars.
+**Why hands-on?** After a decade leading teams (4-150 people, managed up to 30 engineers), I deliberately stepped back to sharpen my technical edge. Leadership is more effective when grounded in current engineering reality. In the first 3 months of 2026, that bet produced 10+ open-source projects, 5,000+ stars on my own, plus core contributions to RTK (60,000+ stars).
 
 **Leadership experience:**
 - Built and scaled engineering teams from scratch (early-stage → Series A → scale-up)
