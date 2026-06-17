@@ -42,6 +42,8 @@ Map any GitHub repository's stargazers on an interactive world map. Paste a repo
 - AI Founding Engineer at [Méthode Aristote](https://methode-aristote.fr/) (TypeScript/Next.js, tRPC, Prisma, AI integration)
 - Building and maintaining the Claude Code open-source ecosystem (guide + RTK + ccboard + 7 tools)
 - Workshops on AI-assisted development for dev teams
+- Occasional speaker at conferences, live streams, talks, BBLs and podcasts ([media](https://www.florian.bruniaux.com/media/))
+- Writing about AI-assisted engineering on my [blog](https://www.florian.bruniaux.com/blog/)
 - AI enthusiast building in public: 5,000+ stars across my own AI tooling projects, plus core team on RTK (60,000+ stars)
 
 ---
@@ -71,6 +73,8 @@ Map any GitHub repository's stargazers on an interactive world map. Paste a repo
 ## Links
 
 - 🌐 [florian.bruniaux.com](https://florian.bruniaux.com/)  -  Portfolio
+- ✍️ [florian.bruniaux.com/blog](https://www.florian.bruniaux.com/blog/)  -  Blog on AI-assisted engineering
+- 🎤 [florian.bruniaux.com/media](https://www.florian.bruniaux.com/media/)  -  Talks, podcasts & live streams
 - 📂 [cc.bruniaux.com](https://cc.bruniaux.com)  -  Claude Code Ultimate Guide
 - 💼 [cowork.bruniaux.com](https://cowork.bruniaux.com)  -  Claude Cowork Guide
 - 🗺️ [starmapper.bruniaux.com](https://starmapper.bruniaux.com)  -  StarMapper
