@@ -45,6 +45,7 @@ Map any GitHub repository's stargazers on an interactive world map. Paste a repo
 | **[dep-scope](https://github.com/FlorianBruniaux/node-dep-scope)** | Granular Node.js/TypeScript dependency analyzer: used symbols per package, native alternatives, duplicates. Ships an MCP server listed on the official MCP Registry | [npm](https://www.npmjs.com/package/@florianbruniaux/dep-scope) |
 | **[claude-code-plugins](https://github.com/FlorianBruniaux/claude-code-plugins)** | 181 Claude Code templates as installable plugins: security-suite, devops-pipeline, code-quality, release-automation, pr-workflow, session-tools, ai-methodology, session-summary | GitHub |
 | **[ctxharness](https://github.com/FlorianBruniaux/ctxharness)** | AI documentation drift detector  -  checks that versions, instructions, and context assembly in CLAUDE.md/AGENTS.md match code reality. 19 extractors, 15 scanners, score/fix/doctor CLI | GitHub |
+| **[google-search-console-mcp](https://github.com/FlorianBruniaux/google-search-console-mcp)** | 43-tool MCP server for Google Search Console + GA4: search analytics, SEO intelligence, URL inspection, indexing, CrUX, sitemap audit, schema validation. Listed on the MCP Registry | [PyPI](https://pypi.org/project/gsc-mcp/) |
 
 ---
 
