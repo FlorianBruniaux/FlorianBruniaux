@@ -51,7 +51,7 @@ Map any GitHub repository's stargazers on an interactive world map. Paste a repo
 
 ## 📺 Talks & Appearances
 
-- 🔜 🇫🇷 Tronche de Tech — podcast with Terry Michel *(Jul 2026)*
+- 🔜 🇫🇷 Tronche de Tech, podcast with Terry Michel *(Jul 2026)*
 - 2026 🇬🇧 [Building the StarMapper MCP App](https://www.youtube.com/watch?v=KFOx4r6uRjA) @ [Alpic](https://alpic.ai/) - live coding with Frédéric Barthelet
 - 2026 🇫🇷 [Ce qui t'ouvre les portes des top startups](https://www.youtube.com/watch?v=X_kmhNzessw) @ GitHub with AI *(live)*
 - 2026 🇫🇷 [Tokens : le nouveau cloud waste](https://techready.live/talks/talk-tokens-cloud-waste/) @ [Tech Ready Nantes](https://techready.live/) *(talk)*
@@ -65,7 +65,7 @@ Map any GitHub repository's stargazers on an interactive world map. Paste a repo
 
 ## ✍️ Writing
 
-**Context Engineering** — 6-part series
+**Context Engineering** (6-part series)
 
 - 1/6 · [The Same Model, Opposite Results: Context Is the Variable](https://www.florian.bruniaux.com/blog/articles/context-engineering-the-hidden-variable/)
 - 2/6 · [The CLAUDE.md That Doesn't Lie After Three Months](https://www.florian.bruniaux.com/blog/articles/context-engineering-maturity-model/)
