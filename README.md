@@ -51,13 +51,13 @@ Map any GitHub repository's stargazers on an interactive world map. Paste a repo
 
 ## 📺 Talks & Appearances
 
-- 🔜 🇫🇷 Tronche de Tech, podcast with Terry Michel *(Jul 2026)*
+- 🔜 🇫🇷 Tronche de Tech, podcast with Mathieu Sanchez *(Jul 2026)*
 - 2026 🇬🇧 [Building the StarMapper MCP App](https://www.youtube.com/watch?v=KFOx4r6uRjA) @ [Alpic](https://alpic.ai/) - live coding with Frédéric Barthelet
 - 2026 🇫🇷 [Ce qui t'ouvre les portes des top startups](https://www.youtube.com/watch?v=X_kmhNzessw) @ GitHub with AI *(live)*
 - 2026 🇫🇷 [Tokens : le nouveau cloud waste](https://techready.live/talks/talk-tokens-cloud-waste/) @ [Tech Ready Nantes](https://techready.live/) *(talk)*
 - 2026 🇫🇷 [Adoption des agents de code : bonnes pratiques IA](https://techready.live/talks/table-ronde-2/) @ [Tech Ready Nantes](https://techready.live/) *(roundtable)*
 - 2026 🇫🇷 [Context Rot : optimiser son context engineering](https://www.youtube.com/watch?v=D_XI-NYcSxI) @ [NextLevelRun](https://next-level.run/) *(live)*
-- 2026 🇫🇷 [Une équipe produit qui shippe avec l'IA](https://justaclick.fr/podcast/une-equipe-produit-qui-shippe-avec-lia-ce-que-ca-veut-dire-vraiment-florian-bruniaux/) @ [Just a Click](https://justaclick.fr/podcast/) *(podcast)*
+- 2026 🇫🇷 [Une équipe produit qui shippe avec l'IA with Terry Michel](https://justaclick.fr/podcast/une-equipe-produit-qui-shippe-avec-lia-ce-que-ca-veut-dire-vraiment-florian-bruniaux/) @ [Just a Click](https://justaclick.fr/podcast/) *(podcast)*
 - 2026 🇫🇷 [De CTO avec 30 devs à Solo Engineer boosté à l'IA](https://www.youtube.com/watch?v=MDgU0LrGHM0) @ [The Product Crew](https://tpc-recrutement.com/) *(live)*
 - 2026 🇫🇷 [7 mois, 1200 commits, 600 PRs, 50 releases](https://www.youtube.com/watch?v=nfupYzLjFGc) @ [Dev with AI](https://devw.ai/) *(live)*
 
