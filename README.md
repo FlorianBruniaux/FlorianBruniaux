@@ -7,26 +7,37 @@ Direct, kind, energetic. Always 8 projects running.
 
 ---
 
+## 📬 Blog & Guides
+
+I write about AI-assisted engineering and keep my guides updated, most weeks bring something new.
+
+- **[Claude Code Ultimate Guide](https://cc.bruniaux.com)**: the main reference, continuously updated (v3.43.0, 473 quiz questions across 17 categories, 13 whitepapers at 566 pages, 57 recap cards, 166-entry threat database)
+- **[Blog](https://www.florian.bruniaux.com/blog/)**: articles on context engineering, AI-assisted workflows, and real production data (git stats, DORA metrics, honest retrospectives)
+
+If you land here from a guide page or an article, starring the repo is the best way to see when something new ships.
+
+---
+
 ## Current Focus
 
 - AI Founding Engineer at [Méthode Aristote](https://methode-aristote.fr/) (TypeScript/Next.js, tRPC, Prisma, AI integration)
-- Building and maintaining the Claude Code open-source ecosystem (guide + RTK + ccboard + 7 tools)
+- Building and maintaining the Claude Code open-source ecosystem (guide + RTK + 9 other tools)
+- Active member of [Dev with AI](https://devw.ai/), a French-speaking AI community of ~3,000 people today, aiming to become the reference AI community in France and, eventually, Europe
 - Workshops on AI-assisted development for dev teams
 - Occasional speaker at conferences, live streams, talks, BBLs and podcasts ([media](https://www.florian.bruniaux.com/media/))
-- Writing about AI-assisted engineering on my [blog](https://www.florian.bruniaux.com/blog/)
-- AI enthusiast building in public: 5,000+ stars across my own AI tooling projects, plus core team on RTK (80,000+ stars)
+- AI enthusiast building in public: 5,000+ stars across my own AI tooling projects, plus core team on RTK (77,000+ stars)
 
 ---
 
 ## What I Build
 
 ### [Claude Code Ultimate Guide](https://github.com/FlorianBruniaux/claude-code-ultimate-guide)
-Comprehensive resource for AI-assisted development with Claude Code. Documentation-as-product: 271 quiz questions, 225 production-ready templates, 11 whitepapers (472 pages), threat DB with 655+ catalogued malicious skills.
+Comprehensive resource for AI-assisted development with Claude Code. Documentation-as-product: 473 quiz questions (17 categories), 13 whitepapers (566 pages, FR+EN), 57 recap cards, threat database with 166 catalogued malicious skills/CVEs.
 **5,000+ stars** · **600+ forks** · [cc.bruniaux.com](https://cc.bruniaux.com)
 
 ### [RTK - Rust Token Killer](https://github.com/rtk-ai/rtk)
 CLI proxy that reduces LLM token consumption by 60-90% on common dev operations. Intercepts Git, GitHub CLI, Cargo, pnpm, Vitest, Playwright, Docker, Kubernetes and compresses output to what actually matters.
-**80,000+ stars** · Core team member & evangelist · [rtk-ai.app](https://www.rtk-ai.app)
+**77,000+ stars** · Core team member & evangelist · [rtk-ai.app](https://www.rtk-ai.app)
 
 ### [StarMapper](https://github.com/FlorianBruniaux/starmapper)
 Map any GitHub repository's stargazers on an interactive world map. Paste a repo URL, get a live geocoded map with clustering, country stats, and an embeddable badge. Next.js + MapLibre + Neon Postgres.
@@ -36,18 +47,27 @@ Map any GitHub repository's stargazers on an interactive world map. Paste a repo
 
 ### Open-Source Tools
 
+**Claude Code ecosystem**
+
 | Project | What it does | Link |
 |---------|-------------|------|
-| **[CCBoard](https://github.com/FlorianBruniaux/ccboard)** | Dual TUI/Web dashboard for Claude Code monitoring. Single Rust binary, 472 tests, 89x cache speedup | [ccboard.bruniaux.com](https://ccboard.bruniaux.com) |
+| **[CCBoard](https://github.com/FlorianBruniaux/ccboard)** | Dual TUI/Web dashboard for Claude Code monitoring. Single Rust binary, 528 tests, 89x cache speedup | [ccboard.bruniaux.com](https://ccboard.bruniaux.com) |
 | **[CC-Copilot Bridge](https://github.com/FlorianBruniaux/cc-copilot-bridge)** | Multi-provider router: switch Claude Code between Anthropic, GitHub Copilot (unlimited), and Ollama local | [ccbridge.bruniaux.com](https://ccbridge.bruniaux.com) |
-| **[Claude Cowork Guide](https://github.com/FlorianBruniaux/claude-cowork-guide)** | AI workflows for knowledge workers and non-technical users  -  28 workflows, 70 copy-paste prompts | [cowork.bruniaux.com](https://cowork.bruniaux.com) |
+| **[claude-code-plugins](https://github.com/FlorianBruniaux/claude-code-plugins)** | 212 Claude Code templates across 8 focused installable plugins: security-suite, devops-pipeline, code-quality, release-automation, pr-workflow, session-tools, ai-methodology, session-summary | GitHub |
+| **[ctxharness](https://github.com/FlorianBruniaux/ctxharness)** | AI documentation drift detector, checks that versions, instructions, and context assembly in CLAUDE.md/AGENTS.md match code reality. 20 extractors, 15 scanners, score/fix/doctor CLI | GitHub |
 | **[CC-Sessions](https://github.com/FlorianBruniaux/cc-sessions)** | CLI to index and search Claude Code session history. Zero dependencies, under 200ms on 1300+ sessions | GitHub |
-| **[cc-skill-usage](https://github.com/FlorianBruniaux/cc-skill-usage)** | Retroactive Skill usage analytics for Claude Code. Reads transcripts already on disk, no hook to install first. Counts real `Skill` tool calls, not prose mentions: a 212x gap measured on real data (2330 mentions, 11 invocations). Single file, stdlib only | GitHub |
-| **[dep-scope](https://github.com/FlorianBruniaux/node-dep-scope)** | Granular Node.js/TypeScript dependency analyzer: used symbols per package, native alternatives, duplicates. Ships an MCP server listed on the official MCP Registry | [npm](https://www.npmjs.com/package/@florianbruniaux/dep-scope) |
-| **[claude-code-plugins](https://github.com/FlorianBruniaux/claude-code-plugins)** | 181 Claude Code templates as installable plugins: security-suite, devops-pipeline, code-quality, release-automation, pr-workflow, session-tools, ai-methodology, session-summary | GitHub |
-| **[ctxharness](https://github.com/FlorianBruniaux/ctxharness)** | AI documentation drift detector  -  checks that versions, instructions, and context assembly in CLAUDE.md/AGENTS.md match code reality. 19 extractors, 15 scanners, score/fix/doctor CLI | GitHub |
-| **[google-search-console-mcp](https://github.com/FlorianBruniaux/google-search-console-mcp)** | 43-tool MCP server for Google Search Console + GA4: search analytics, SEO intelligence, URL inspection, indexing, CrUX, sitemap audit, schema validation. Listed on the MCP Registry | [PyPI](https://pypi.org/project/gsc-mcp/) |
+| **[cc-skill-usage](https://github.com/FlorianBruniaux/cc-skill-usage)** | Retroactive Skill usage analytics for Claude Code. Reads transcripts already on disk, no hook to install first. Counts real `Skill` tool calls, not prose mentions: a 212x gap measured on real data (2330 mentions, 11 invocations) | GitHub |
 | **[flow-lean](https://github.com/FlorianBruniaux/flow-lean)** | Lean output mode for Claude Code, fuses minimal-solution, action-first, and zero-fat density skills into one rule: every token earns its place | GitHub |
+| **[Claude Cowork Guide](https://github.com/FlorianBruniaux/claude-cowork-guide)** | AI workflows for knowledge workers and non-technical users, 30 workflows (FR+EN), 70 copy-paste prompts | [cowork.bruniaux.com](https://cowork.bruniaux.com) |
+| **[github-roast-tpc](https://github.com/FlorianBruniaux/github-roast-tpc)** | Claude Code plugin that audits a GitHub profile through its author's intent: README review, AI-marker detection, recruiter signals, SEO advice. Built for The Product Crew's "GitHub Roast" live | GitHub |
+
+**Standalone tools**
+
+| Project | What it does | Link |
+|---------|-------------|------|
+| **[dep-scope](https://github.com/FlorianBruniaux/node-dep-scope)** | Granular Node.js/TypeScript dependency analyzer: used symbols per package, native alternatives, duplicates. Ships an MCP server listed on the official MCP Registry | [npm](https://www.npmjs.com/package/@florianbruniaux/dep-scope) |
+| **[google-search-console-mcp](https://github.com/FlorianBruniaux/google-search-console-mcp)** | 61-tool MCP server for Google Search Console + GA4, across 14 tool families: search analytics, URL inspection, Indexing API, IndexNow, CrUX, sitemap audit, schema validation, SEO drift monitoring. Listed on the MCP Registry | [PyPI](https://pypi.org/project/gsc-mcp/) |
+| **[yt-insights](https://github.com/FlorianBruniaux/youtube-video-insights)** | Turn YouTube channels into a local, searchable research corpus: transcripts, structured insights, SQLite/FTS5 search, reports, and Shorts suggestions | [PyPI](https://pypi.org/project/yt-insights/) |
 
 ---
 
@@ -60,7 +80,7 @@ Map any GitHub repository's stargazers on an interactive world map. Paste a repo
 - 2026 🇫🇷 [Adoption des agents de code : bonnes pratiques IA](https://techready.live/talks/table-ronde-2/) @ [Tech Ready Nantes](https://techready.live/) *(roundtable)*
 - 2026 🇫🇷 [Context Rot : optimiser son context engineering](https://www.youtube.com/watch?v=D_XI-NYcSxI) @ [NextLevelRun](https://next-level.run/) *(live)*
 - 2026 🇫🇷 [Une équipe produit qui shippe avec l'IA with Terry Michel](https://justaclick.fr/podcast/une-equipe-produit-qui-shippe-avec-lia-ce-que-ca-veut-dire-vraiment-florian-bruniaux/) @ [Just a Click](https://justaclick.fr/podcast/) *(podcast)*
-- 2026 🇫🇷 [De CTO avec 30 devs à Solo Engineer boosté à l'IA](https://www.youtube.com/watch?v=MDgU0LrGHM0) @ [The Product Crew](https://tpc-recrutement.com/) *(live)*
+- 2026 🇫🇷 [De CTO avec 30 devs à Solo Engineer boosté à l'IA, GitHub Roast](https://www.youtube.com/watch?v=MDgU0LrGHM0) @ [The Product Crew](https://tpc-recrutement.com/) *(live, source of the [github-roast-tpc](https://github.com/FlorianBruniaux/github-roast-tpc) plugin)*
 - 2026 🇫🇷 [7 mois, 1200 commits, 600 PRs, 50 releases](https://www.youtube.com/watch?v=nfupYzLjFGc) @ [Dev with AI](https://devw.ai/) *(live)*
 
 ---
@@ -93,11 +113,11 @@ Map any GitHub repository's stargazers on an interactive world map. Paste a repo
 
 ## Background
 
-**12+ years:** Developer → Team Lead → EM → VP Engineering → CTO → back to hands-on by choice.
-
 **AI since 2017:** NLP and predictive ML in production at Q°emotion and eXplain (semantic search, sentiment scoring, ~30M articles processed). Generative and agentic AI daily since 2025.
 
-**Why hands-on?** After a decade leading teams (4-150 people, managed up to 30 engineers), I deliberately stepped back to sharpen my technical edge. Leadership is more effective when grounded in current engineering reality. In the first 3 months of 2026, that bet produced 10+ open-source projects, 5,000+ stars on my own, plus core contributions to RTK (80,000+ stars).
+**12+ years:** Developer → Team Lead → EM → VP Engineering → CTO → back to hands-on by choice.
+
+**Why hands-on?** After a decade leading teams (4-150 people, managed up to 30 engineers), I deliberately stepped back to sharpen my technical edge. Leadership is more effective when grounded in current engineering reality. In the first 3 months of 2026, that bet produced 10+ open-source projects, 5,000+ stars on my own, plus core contributions to RTK (77,000+ stars).
 
 **Leadership experience:**
 - Built and scaled engineering teams from scratch (early-stage → Series A → scale-up)
@@ -117,17 +137,14 @@ Map any GitHub repository's stargazers on an interactive world map. Paste a repo
 
 ## Links
 
-- 🌐 [florian.bruniaux.com](https://florian.bruniaux.com/)  -  Portfolio
-- ✍️ [florian.bruniaux.com/blog](https://www.florian.bruniaux.com/blog/)  -  Blog on AI-assisted engineering
-- 🎤 [florian.bruniaux.com/media](https://www.florian.bruniaux.com/media/)  -  Talks, podcasts & live streams
-- 📂 [cc.bruniaux.com](https://cc.bruniaux.com)  -  Claude Code Ultimate Guide
-- 💼 [cowork.bruniaux.com](https://cowork.bruniaux.com)  -  Claude Cowork Guide
-- 🗺️ [starmapper.bruniaux.com](https://starmapper.bruniaux.com)  -  StarMapper
-- 📊 [ccboard.bruniaux.com](https://ccboard.bruniaux.com)  -  CCBoard
-- 🌉 [ccbridge.bruniaux.com](https://ccbridge.bruniaux.com)  -  CC-Copilot Bridge
-- 🦀 [rtk-ai.app](https://www.rtk-ai.app)  -  RTK - Rust Token Killer
+- 🌐 [florian.bruniaux.com](https://florian.bruniaux.com/) - Portfolio
+- ✍️ [florian.bruniaux.com/blog](https://www.florian.bruniaux.com/blog/) - Blog on AI-assisted engineering, updated most weeks
+- 📂 [cc.bruniaux.com](https://cc.bruniaux.com) - Claude Code Ultimate Guide, continuously updated
+- 🎤 [florian.bruniaux.com/media](https://www.florian.bruniaux.com/media/) - Talks, podcasts & live streams
+- 🌍 [devw.ai](https://devw.ai/) - Dev with AI, French-speaking AI community
+- 💼 [cowork.bruniaux.com](https://cowork.bruniaux.com) - Claude Cowork Guide
+- 🗺️ [starmapper.bruniaux.com](https://starmapper.bruniaux.com) - StarMapper
+- 📊 [ccboard.bruniaux.com](https://ccboard.bruniaux.com) - CCBoard
+- 🌉 [ccbridge.bruniaux.com](https://ccbridge.bruniaux.com) - CC-Copilot Bridge
+- 🦀 [rtk-ai.app](https://www.rtk-ai.app) - RTK - Rust Token Killer
 - 🔗 [LinkedIn](https://www.linkedin.com/in/florian-bruniaux-43408b83/)
-
----
-
-*Side note:* Renovating houses (masonry, roofing, earthwork), hiking with my family and Java the dog 🐶, collecting wine (~300 bottles).
