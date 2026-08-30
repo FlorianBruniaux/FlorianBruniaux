@@ -1,6 +1,6 @@
 # Florian Bruniaux
 
-**CTO, 12 years in tech.** Ex-VP/EM, chose to go back hands-on.
+**AI practitioner since 2017, context/harness engineering specialist.** 12 years in tech, ex-CTO/VP Engineering, chose to go back hands-on.
 AI Founding Engineer @ [Méthode Aristote](https://methode-aristote.fr/) (EdTech + AI)
 
 Direct, kind, energetic. Always 8 projects running.
@@ -14,7 +14,7 @@ Direct, kind, energetic. Always 8 projects running.
 - Workshops on AI-assisted development for dev teams
 - Occasional speaker at conferences, live streams, talks, BBLs and podcasts ([media](https://www.florian.bruniaux.com/media/))
 - Writing about AI-assisted engineering on my [blog](https://www.florian.bruniaux.com/blog/)
-- AI enthusiast building in public: 5,000+ stars across my own AI tooling projects, plus core team on RTK (60,000+ stars)
+- AI enthusiast building in public: 5,000+ stars across my own AI tooling projects, plus core team on RTK (80,000+ stars)
 
 ---
 
@@ -26,7 +26,7 @@ Comprehensive resource for AI-assisted development with Claude Code. Documentati
 
 ### [RTK - Rust Token Killer](https://github.com/rtk-ai/rtk)
 CLI proxy that reduces LLM token consumption by 60-90% on common dev operations. Intercepts Git, GitHub CLI, Cargo, pnpm, Vitest, Playwright, Docker, Kubernetes and compresses output to what actually matters.
-**60,000+ stars** · Core team member & evangelist · [rtk-ai.app](https://www.rtk-ai.app)
+**80,000+ stars** · Core team member & evangelist · [rtk-ai.app](https://www.rtk-ai.app)
 
 ### [StarMapper](https://github.com/FlorianBruniaux/starmapper)
 Map any GitHub repository's stargazers on an interactive world map. Paste a repo URL, get a live geocoded map with clustering, country stats, and an embeddable badge. Next.js + MapLibre + Neon Postgres.
@@ -95,7 +95,9 @@ Map any GitHub repository's stargazers on an interactive world map. Paste a repo
 
 **12+ years:** Developer → Team Lead → EM → VP Engineering → CTO → back to hands-on by choice.
 
-**Why hands-on?** After a decade leading teams (4-150 people, managed up to 30 engineers), I deliberately stepped back to sharpen my technical edge. Leadership is more effective when grounded in current engineering reality. In the first 3 months of 2026, that bet produced 10+ open-source projects, 5,000+ stars on my own, plus core contributions to RTK (60,000+ stars).
+**AI since 2017:** NLP and predictive ML in production at Q°emotion and eXplain (semantic search, sentiment scoring, ~30M articles processed). Generative and agentic AI daily since 2025.
+
+**Why hands-on?** After a decade leading teams (4-150 people, managed up to 30 engineers), I deliberately stepped back to sharpen my technical edge. Leadership is more effective when grounded in current engineering reality. In the first 3 months of 2026, that bet produced 10+ open-source projects, 5,000+ stars on my own, plus core contributions to RTK (80,000+ stars).
 
 **Leadership experience:**
 - Built and scaled engineering teams from scratch (early-stage → Series A → scale-up)
@@ -104,7 +106,7 @@ Map any GitHub repository's stargazers on an interactive world map. Paste a repo
 
 **Tech:**
 - **Stack:** TypeScript (Next.js 14+, Nest.js, tRPC), Rust, Ruby (Rails), Python, SQL/NoSQL
-- **AI:** Claude, GPT, AI-assisted workflows, MCP server development
+- **AI:** Claude, GPT, MCP server development, agentic workflows. NLP/ML since 2017 (Elasticsearch, spaCy, Gensim)
 - **Infra:** AWS, GCP, Vercel, Docker, Kubernetes, serverless
 - **Domains:** Fullstack (backend preference), product development, technical architecture
 
