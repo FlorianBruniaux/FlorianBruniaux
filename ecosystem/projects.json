@@ -1,0 +1,517 @@
+{
+  "version": 1,
+  "profile_url": "https://github.com/FlorianBruniaux",
+  "manifest_url": "https://github.com/FlorianBruniaux/FlorianBruniaux/blob/main/ecosystem/projects.json",
+  "routes": [
+    {
+      "id": "build-run",
+      "title": "Build & Run",
+      "description": "Build, connect, and operate agentic workflows."
+    },
+    {
+      "id": "observe-improve",
+      "title": "Observe & Improve",
+      "description": "Understand sessions and improve real usage."
+    },
+    {
+      "id": "secure-validate",
+      "title": "Secure & Validate",
+      "description": "Reduce risk and verify code or configuration quality."
+    },
+    {
+      "id": "learn-adopt",
+      "title": "Learn & Adopt",
+      "description": "Choose a learning route for developers or knowledge workers."
+    },
+    {
+      "id": "research-discover-grow",
+      "title": "Research, Discover & Grow",
+      "description": "Turn source material into knowledge, visibility, or discovery."
+    }
+  ],
+  "projects": [
+    {
+      "id": "cc-copilot-bridge",
+      "name": "CC-Copilot Bridge",
+      "route": "build-run",
+      "description": "Route Claude Code between Anthropic, GitHub Copilot, and local Ollama models.",
+      "use_when": "You need to change the model provider behind a Claude Code workflow.",
+      "format": "CLI router",
+      "tags": ["routing", "local AI", "Rust"],
+      "icon": "🌉",
+      "github": "https://github.com/FlorianBruniaux/cc-copilot-bridge",
+      "website": "https://ccbridge.bruniaux.com/",
+      "landing_featured": true,
+      "managed_readme": true,
+      "relations": [
+        {
+          "project": "yt-insights",
+          "label": "Run with",
+          "reason": "yt-insights already detects the bridge as its preferred LLM backend."
+        },
+        {
+          "project": "ccboard",
+          "label": "Observe with",
+          "reason": "monitor Claude Code sessions while the bridge handles provider routing."
+        },
+        {
+          "project": "rtk",
+          "label": "Optimize with",
+          "reason": "the bridge optimizes provider choice while RTK reduces command-output noise."
+        },
+        {
+          "project": "claude-code-guide",
+          "label": "Learn with",
+          "reason": "compare gateways, model choices, and cost trade-offs."
+        }
+      ]
+    },
+    {
+      "id": "claude-code-plugins",
+      "name": "claude-code-plugins",
+      "route": "build-run",
+      "description": "Install focused Claude Code plugins built from reusable guide templates.",
+      "use_when": "You want packaged skills, hooks, agents, and workflows instead of copying files manually.",
+      "format": "Plugin collection",
+      "tags": ["extensions", "workflows", "Claude Code"],
+      "icon": "📦",
+      "github": "https://github.com/FlorianBruniaux/claude-code-plugins",
+      "website": null,
+      "landing_featured": false,
+      "managed_readme": true,
+      "relations": [
+        {
+          "project": "claude-code-guide",
+          "label": "Learn with",
+          "reason": "the guide explains the decisions and trade-offs behind the installable templates."
+        },
+        {
+          "project": "ccboard",
+          "label": "Observe with",
+          "reason": "the session-tools plugin already connects Claude Code workflows to CCBoard."
+        },
+        {
+          "project": "rtk",
+          "label": "Optimize with",
+          "reason": "the session-tools plugin already provides an RTK integration."
+        },
+        {
+          "project": "ctxharness",
+          "label": "Validate with",
+          "reason": "check that installed instructions remain aligned with the codebase."
+        }
+      ]
+    },
+    {
+      "id": "ctxharness",
+      "name": "ctxharness",
+      "route": "build-run",
+      "description": "Detect drift between code, instructions, and assembled agent context.",
+      "use_when": "You need evidence that CLAUDE.md, AGENTS.md, and related context still match the repository.",
+      "format": "CLI",
+      "tags": ["harnessing", "docs integrity", "quality"],
+      "icon": "🧭",
+      "github": "https://github.com/FlorianBruniaux/ctxharness",
+      "website": null,
+      "landing_featured": false,
+      "managed_readme": true,
+      "relations": [
+        {
+          "project": "claude-code-guide",
+          "label": "Learn with",
+          "reason": "connect the checks to the guide's context-engineering and harness practices."
+        },
+        {
+          "project": "claude-code-plugins",
+          "label": "Use with",
+          "reason": "validate contexts and rules installed through the plugin collection."
+        },
+        {
+          "project": "agentsec-triage",
+          "label": "Secure with",
+          "reason": "combine documentation integrity with checks for documented campaigns and risky configuration."
+        }
+      ]
+    },
+    {
+      "id": "flow-lean",
+      "name": "flow-lean",
+      "route": "build-run",
+      "description": "Apply one lean-output rule to Claude Code responses.",
+      "use_when": "You want shorter action-first responses without stacking several overlapping skills.",
+      "format": "Claude Code skill",
+      "tags": ["output control", "prompting", "context"],
+      "icon": "✂️",
+      "github": "https://github.com/FlorianBruniaux/flow-lean",
+      "website": null,
+      "landing_featured": false,
+      "managed_readme": true,
+      "relations": [
+        {
+          "project": "cc-skill-usage",
+          "label": "Measure with",
+          "reason": "verify that the skill is invoked in real transcripts rather than only mentioned."
+        },
+        {
+          "project": "rtk",
+          "label": "Optimize with",
+          "reason": "flow-lean reduces model prose while RTK reduces command output."
+        },
+        {
+          "project": "claude-code-guide",
+          "label": "Learn with",
+          "reason": "place response density inside the broader context-engineering model."
+        }
+      ]
+    },
+    {
+      "id": "rtk",
+      "name": "RTK",
+      "route": "build-run",
+      "description": "Compress development-command output before it enters an agent's context.",
+      "use_when": "Verbose Git, test, build, or infrastructure output consumes too much context.",
+      "format": "CLI proxy",
+      "tags": ["token efficiency", "CLI", "Rust"],
+      "icon": "⚡",
+      "github": "https://github.com/rtk-ai/rtk",
+      "website": "https://www.rtk-ai.app/",
+      "landing_featured": true,
+      "managed_readme": false,
+      "relations": [
+        {
+          "project": "claude-code-plugins",
+          "label": "Use with",
+          "reason": "the session-tools plugin provides a ready-to-install integration."
+        },
+        {
+          "project": "flow-lean",
+          "label": "Optimize with",
+          "reason": "the two projects reduce different layers of the same context budget."
+        },
+        {
+          "project": "cc-copilot-bridge",
+          "label": "Route with",
+          "reason": "combine context efficiency with explicit provider selection."
+        }
+      ]
+    },
+    {
+      "id": "ccboard",
+      "name": "CCBoard",
+      "route": "observe-improve",
+      "description": "Monitor Claude Code sessions through a local TUI and web dashboard.",
+      "use_when": "You need a complete visual overview of sessions, activity, and analytics.",
+      "format": "TUI + Web",
+      "tags": ["observability", "monitoring", "Rust"],
+      "icon": "📊",
+      "github": "https://github.com/FlorianBruniaux/ccboard",
+      "website": "https://ccboard.bruniaux.com/",
+      "landing_featured": true,
+      "managed_readme": true,
+      "relations": [
+        {
+          "project": "cc-sessions",
+          "label": "Search with",
+          "reason": "move from the dashboard to a focused CLI search of local history."
+        },
+        {
+          "project": "cc-skill-usage",
+          "label": "Measure with",
+          "reason": "add a specialist analysis of real skill invocations."
+        },
+        {
+          "project": "claude-code-guide",
+          "label": "Learn with",
+          "reason": "connect observed signals to the guide's observability practices."
+        },
+        {
+          "project": "cc-copilot-bridge",
+          "label": "Route with",
+          "reason": "observe sessions whose model provider can be selected through the bridge."
+        }
+      ]
+    },
+    {
+      "id": "cc-sessions",
+      "name": "CC-Sessions",
+      "route": "observe-improve",
+      "description": "Index and search local Claude Code session history.",
+      "use_when": "You need a fast zero-dependency CLI for finding prior decisions or commands.",
+      "format": "CLI",
+      "tags": ["session search", "local-first", "history"],
+      "icon": "📋",
+      "github": "https://github.com/FlorianBruniaux/cc-sessions",
+      "website": null,
+      "landing_featured": false,
+      "managed_readme": true,
+      "relations": [
+        {
+          "project": "ccboard",
+          "label": "Visualize with",
+          "reason": "switch to a complete dashboard when targeted CLI search is not enough."
+        },
+        {
+          "project": "cc-skill-usage",
+          "label": "Analyze with",
+          "reason": "inspect one specialist signal in the same local transcripts."
+        },
+        {
+          "project": "claude-code-guide",
+          "label": "Learn with",
+          "reason": "go deeper on sessions, memory, and context continuity."
+        }
+      ]
+    },
+    {
+      "id": "cc-skill-usage",
+      "name": "cc-skill-usage",
+      "route": "observe-improve",
+      "description": "Measure actual Claude Code skill invocations from local transcripts.",
+      "use_when": "You need to distinguish real Skill tool calls from prose mentions.",
+      "format": "CLI",
+      "tags": ["skills analytics", "local-first", "transcripts"],
+      "icon": "📈",
+      "github": "https://github.com/FlorianBruniaux/cc-skill-usage",
+      "website": null,
+      "landing_featured": false,
+      "managed_readme": true,
+      "relations": [
+        {
+          "project": "cc-sessions",
+          "label": "Search with",
+          "reason": "explore the sessions that contain the measured invocations."
+        },
+        {
+          "project": "ccboard",
+          "label": "Visualize with",
+          "reason": "pair specialist CLI analysis with a broader session dashboard."
+        },
+        {
+          "project": "flow-lean",
+          "label": "Validate with",
+          "reason": "verify empirically that the advertised skill is actually invoked."
+        }
+      ]
+    },
+    {
+      "id": "agentsec-triage",
+      "name": "agentsec-triage",
+      "route": "secure-validate",
+      "description": "Triage documented attacks against developers, dependencies, and coding-agent configuration.",
+      "use_when": "You need a deterministic read-only scanner for a documented campaign or compromise signal.",
+      "format": "Security CLI",
+      "tags": ["security", "supply chain", "offline"],
+      "icon": "🛡️",
+      "github": "https://github.com/FlorianBruniaux/agentsec-triage",
+      "website": "https://cc.bruniaux.com/security/",
+      "landing_featured": false,
+      "managed_readme": true,
+      "relations": [
+        {
+          "project": "claude-code-guide",
+          "label": "Learn with",
+          "reason": "the guide already consumes the scanner's versioned security feed."
+        },
+        {
+          "project": "ctxharness",
+          "label": "Validate with",
+          "reason": "cover configuration security and context integrity together."
+        },
+        {
+          "project": "claude-code-plugins",
+          "label": "Automate with",
+          "reason": "pair specialist triage with the security-suite workflows."
+        }
+      ]
+    },
+    {
+      "id": "dep-scope",
+      "name": "dep-scope",
+      "route": "secure-validate",
+      "description": "Analyze symbol-level dependency usage in JavaScript and TypeScript projects.",
+      "use_when": "You need to find unused package surface, duplicates, or native alternatives.",
+      "format": "CLI + MCP",
+      "tags": ["dependencies", "code quality", "TypeScript"],
+      "icon": "🔎",
+      "github": "https://github.com/FlorianBruniaux/node-dep-scope",
+      "website": "https://www.npmjs.com/package/@florianbruniaux/dep-scope",
+      "landing_featured": false,
+      "managed_readme": true,
+      "relations": [
+        {
+          "project": "claude-code-plugins",
+          "label": "Automate with",
+          "reason": "add symbol-level dependency analysis to code-quality workflows."
+        },
+        {
+          "project": "claude-code-guide",
+          "label": "Learn with",
+          "reason": "choose between CLI and MCP and frame the quality check."
+        }
+      ]
+    },
+    {
+      "id": "claude-code-guide",
+      "name": "Claude Code Ultimate Guide",
+      "route": "learn-adopt",
+      "description": "Learn Claude Code, build reliable agents, and scale their use safely.",
+      "use_when": "You need a maintained reference for architecture, workflows, security, and adoption.",
+      "format": "Documentation",
+      "tags": ["developers", "reference", "FR + EN"],
+      "icon": "📚",
+      "github": "https://github.com/FlorianBruniaux/claude-code-ultimate-guide",
+      "website": "https://cc.bruniaux.com/",
+      "landing_featured": false,
+      "managed_readme": true,
+      "relations": [
+        {
+          "project": "claude-code-plugins",
+          "label": "Install with",
+          "reason": "move from explanations to installable templates."
+        },
+        {
+          "project": "ctxharness",
+          "label": "Validate with",
+          "reason": "test whether documented context and instructions still match the repository."
+        },
+        {
+          "project": "agentsec-triage",
+          "label": "Secure with",
+          "reason": "connect security guidance to a versioned operational feed."
+        },
+        {
+          "project": "claude-cowork-guide",
+          "label": "Continue with",
+          "reason": "switch to workflows designed for knowledge workers and non-developers."
+        }
+      ]
+    },
+    {
+      "id": "claude-cowork-guide",
+      "name": "Claude Cowork Guide",
+      "route": "learn-adopt",
+      "description": "Apply Claude to workflows for knowledge workers and non-technical users.",
+      "use_when": "Your work centers on documents, research, analysis, or cross-app tasks rather than software delivery.",
+      "format": "Documentation",
+      "tags": ["knowledge workers", "workflows", "FR + EN"],
+      "icon": "💼",
+      "github": "https://github.com/FlorianBruniaux/claude-cowork-guide",
+      "website": "https://cowork.bruniaux.com/",
+      "landing_featured": false,
+      "managed_readme": true,
+      "relations": [
+        {
+          "project": "claude-code-guide",
+          "label": "Continue with",
+          "reason": "move to developer workflows, agent harnessing, and production safety.",
+          "label_fr": "Continuer avec",
+          "reason_fr": "passer aux workflows de développement, au harnessing des agents et à la sécurité en production."
+        }
+      ]
+    },
+    {
+      "id": "yt-insights",
+      "name": "yt-insights",
+      "route": "research-discover-grow",
+      "description": "Turn YouTube channels into a local searchable research corpus.",
+      "use_when": "You need transcripts, structured insights, local search, and repeatable reports from video sources.",
+      "format": "CLI",
+      "tags": ["research", "local corpus", "YouTube"],
+      "icon": "🎬",
+      "github": "https://github.com/FlorianBruniaux/youtube-video-insights",
+      "website": "https://pypi.org/project/yt-insights/",
+      "landing_featured": false,
+      "managed_readme": true,
+      "relations": [
+        {
+          "project": "cc-copilot-bridge",
+          "label": "Run with",
+          "reason": "use the LLM backend that yt-insights already detects automatically."
+        },
+        {
+          "project": "google-search-console-mcp",
+          "label": "Measure with",
+          "reason": "connect content research to search visibility after publication."
+        },
+        {
+          "project": "claude-code-guide",
+          "label": "Learn with",
+          "reason": "reuse the guide's research and synthesis workflows."
+        }
+      ]
+    },
+    {
+      "id": "google-search-console-mcp",
+      "name": "Google Search Console MCP",
+      "route": "research-discover-grow",
+      "description": "Query Search Console, GA4, and technical search-visibility signals through MCP.",
+      "use_when": "You need an agent-accessible interface for SEO analysis, indexing, and site diagnostics.",
+      "format": "MCP server",
+      "tags": ["SEO", "analytics", "growth"],
+      "icon": "📈",
+      "github": "https://github.com/FlorianBruniaux/google-search-console-mcp",
+      "website": "https://pypi.org/project/gsc-mcp/",
+      "landing_featured": false,
+      "managed_readme": true,
+      "relations": [
+        {
+          "project": "yt-insights",
+          "label": "Research with",
+          "reason": "connect corpus building to post-publication performance measurement."
+        },
+        {
+          "project": "claude-code-guide",
+          "label": "Learn with",
+          "reason": "frame MCP choice, permissions, and research workflows."
+        }
+      ]
+    },
+    {
+      "id": "starmapper",
+      "name": "StarMapper",
+      "route": "research-discover-grow",
+      "description": "Map the geography of a GitHub repository's stargazers.",
+      "use_when": "You want an interactive view of repository audience and geographic reach.",
+      "format": "Web app",
+      "tags": ["GitHub discovery", "audience", "visualization"],
+      "icon": "🗺️",
+      "github": "https://github.com/FlorianBruniaux/starmapper",
+      "website": "https://starmapper.bruniaux.com/",
+      "landing_featured": false,
+      "managed_readme": true,
+      "relations": [
+        {
+          "project": "github-roast-tpc",
+          "label": "Audit with",
+          "reason": "the GitHub profile audit already uses StarMapper as an optional visual analysis."
+        }
+      ]
+    },
+    {
+      "id": "github-roast-tpc",
+      "name": "github-roast-tpc",
+      "route": "research-discover-grow",
+      "description": "Audit a GitHub profile through the intent of its author.",
+      "use_when": "You want README, recruiter-signal, AI-marker, and profile-visibility feedback from a Claude Code plugin.",
+      "format": "Claude Code plugin",
+      "tags": ["profile audit", "GitHub", "SEO"],
+      "icon": "🔥",
+      "github": "https://github.com/FlorianBruniaux/github-roast-tpc",
+      "website": null,
+      "landing_featured": false,
+      "managed_readme": true,
+      "relations": [
+        {
+          "project": "starmapper",
+          "label": "Visualize with",
+          "reason": "add geographic audience analysis through the existing optional integration."
+        },
+        {
+          "project": "claude-code-guide",
+          "label": "Learn with",
+          "reason": "connect the plugin to Claude Code review and extension practices."
+        }
+      ]
+    }
+  ]
+}
