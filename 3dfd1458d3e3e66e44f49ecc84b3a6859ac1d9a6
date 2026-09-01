@@ -1,0 +1,19 @@
+README.md
+  s_9f2d416973d69f::t_d64c8d4df76d19 10-20,24-25,28,35,40,50-51,54,56-57,59,61-70,83,118-120,140-149
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.0",
+  "base_commit_sha": "3dfd1458d3e3e66e44f49ecc84b3a6859ac1d9a6",
+  "prompts": {},
+  "sessions": {
+    "s_9f2d416973d69f": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f210a8e7-d7e8-4a36-b283-26f4cb5e4fa9",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "Florian BRUNIAUX <florian@bruniaux.com>"
+    }
+  }
+}
