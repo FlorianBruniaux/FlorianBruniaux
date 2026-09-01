@@ -1,0 +1,42 @@
+tests/ecosystem.test.mjs
+  s_a5f8ae36a6c70e::t_f4a15dab28863d 139-163,165-223
+  s_a5f8ae36a6c70e::t_780dcb9a53d14a 164
+  s_a5f8ae36a6c70e::t_9c9bc6b478c38e 1-2,6-7,10-23,138
+  s_a5f8ae36a6c70e::t_652da88f8e4f81 224-246
+  s_a5f8ae36a6c70e::t_9be4b896ddbf48 8-9,24-93,137
+  s_a5f8ae36a6c70e::t_77c02112f23f2e 125-126
+  s_a5f8ae36a6c70e::t_6ec8e086f880d7 3-5,94-124,127-136
+scripts/ecosystem.mjs
+  s_a5f8ae36a6c70e::t_e27d7734c6ba01 177-205,245-257,260
+  s_a5f8ae36a6c70e::t_ccead5b5d07763 13-14,145-161,163-176,230-244
+  s_a5f8ae36a6c70e::t_abeecf5498e5c5 3,11-12,81-88,90-100,108-109,111-121,123-144,206-213,215-229,258-259
+  s_a5f8ae36a6c70e::t_0fa55fd8b11cb6 101-107,110
+  s_a5f8ae36a6c70e::t_f6049567804c2d 1-2,4-10,15-26,78-80,89,122,214,261-270
+  s_a5f8ae36a6c70e::t_b486b6810d5242 27-77
+  s_a5f8ae36a6c70e::t_96f53fa327ff81 162
+README.md
+  s_a5f8ae36a6c70e::t_49d701fed96bee 48-105
+docs/superpowers/plans/2026-09-01-open-source-galaxy.md
+  s_a5f8ae36a6c70e::t_062d574867c306 1-188
+docs/superpowers/specs/2026-09-01-open-source-galaxy-design.md
+  s_a5f8ae36a6c70e::t_062d574867c306 1-116
+ecosystem/projects.json
+  s_a5f8ae36a6c70e::t_f6049567804c2d 1-3,5-517
+  s_a5f8ae36a6c70e::t_96f53fa327ff81 4
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.0",
+  "base_commit_sha": "3e3e5774566480099fe4b3bb18799a90a65b483c",
+  "prompts": {},
+  "sessions": {
+    "s_a5f8ae36a6c70e": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a05cc7-ac82-7c62-8480-1e531c3144ed",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Florian BRUNIAUX <florian@bruniaux.com>"
+    }
+  }
+}
