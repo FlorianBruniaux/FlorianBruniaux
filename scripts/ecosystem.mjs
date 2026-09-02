@@ -105,6 +105,43 @@ function githubAnchor(title) {
     .replaceAll(' ', '-')
 }
 
+function mermaidId(value) {
+  return value.replaceAll('-', '_')
+}
+
+function renderProfileMap(manifest) {
+  const routeNodes = manifest.routes.flatMap((route, index) => {
+    const routeId = mermaidId(route.id)
+    const projectNames = manifest.projects
+      .filter((project) => project.route === route.id)
+      .map((project) => project.name)
+      .join('<br/>')
+
+    return [
+      `  hub --> ${routeId}["0${index + 1} · ${route.title}"]`,
+      `  ${routeId} --> ${routeId}_projects["${projectNames}"]`,
+    ]
+  })
+  const routeIds = manifest.routes.map((route) => mermaidId(route.id)).join(',')
+  const projectIds = manifest.routes.map((route) => `${mermaidId(route.id)}_projects`).join(',')
+
+  return [
+    '```mermaid',
+    'flowchart TB',
+    '  accTitle: AI engineering ecosystem map',
+    '  accDescr: Five routes connect the ecosystem hub to all sixteen projects',
+    '  hub(["AI engineering ecosystem"])',
+    ...routeNodes,
+    '  classDef hub fill:#f97316,color:#111827,stroke:#fb923c,stroke-width:3px',
+    '  classDef route fill:#1f2937,color:#f9fafb,stroke:#94a3b8,stroke-width:2px',
+    '  classDef projects fill:#111827,color:#e5e7eb,stroke:#475569',
+    '  class hub hub',
+    `  class ${routeIds} route`,
+    `  class ${projectIds} projects`,
+    '```',
+  ].join('\n')
+}
+
 export function renderProfile(manifest) {
   const routeLinks = manifest.routes
     .map((route) => `[${route.title}](#${githubAnchor(route.title)})`)
@@ -115,8 +152,8 @@ export function renderProfile(manifest) {
       .filter((project) => project.route === route.id)
       .map((project) => {
         const website = project.website ? ` · [${websiteLabel(project.website)}](${project.website})` : ''
-        const tags = project.tags.join(' · ')
-        return `| **[${project.name}](${project.github})**${website}<br><sub>${tags}</sub> | ${project.use_when} | ${project.format} |`
+        const tags = project.tags.map((tag) => `<kbd>${tag}</kbd>`).join(' ')
+        return `| **[${project.name}](${project.github})**${website}<br>${tags} | ${project.use_when} | ${project.format} |`
       })
       .join('\n')
 
@@ -137,6 +174,10 @@ export function renderProfile(manifest) {
     'Choose a route based on the outcome you need. Each project appears once under its primary route; the labels show its secondary angles.',
     '',
     routeLinks,
+    '',
+    renderProfileMap(manifest),
+    '',
+    '> **Project spotlight: [cc-skill-usage](https://github.com/FlorianBruniaux/cc-skill-usage).** It measures real Skill tool calls from local transcripts, so usage reports do not confuse invocations with prose mentions.',
     '',
     ...sections.flatMap((section, index) => index === 0 ? [section] : ['', section]),
   ].join('\n')

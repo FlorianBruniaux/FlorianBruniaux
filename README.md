@@ -52,17 +52,42 @@ Choose a route based on the outcome you need. Each project appears once under it
 
 [Build & Run](#build--run) · [Observe & Improve](#observe--improve) · [Secure & Validate](#secure--validate) · [Learn & Adopt](#learn--adopt) · [Research, Discover & Grow](#research-discover--grow)
 
+```mermaid
+flowchart TB
+  accTitle: AI engineering ecosystem map
+  accDescr: Five routes connect the ecosystem hub to all sixteen projects
+  hub(["AI engineering ecosystem"])
+  hub --> build_run["01 · Build & Run"]
+  build_run --> build_run_projects["CC-Copilot Bridge<br/>claude-code-plugins<br/>ctxharness<br/>flow-lean<br/>RTK"]
+  hub --> observe_improve["02 · Observe & Improve"]
+  observe_improve --> observe_improve_projects["CCBoard<br/>CC-Sessions<br/>cc-skill-usage"]
+  hub --> secure_validate["03 · Secure & Validate"]
+  secure_validate --> secure_validate_projects["agentsec-triage<br/>dep-scope"]
+  hub --> learn_adopt["04 · Learn & Adopt"]
+  learn_adopt --> learn_adopt_projects["Claude Code Ultimate Guide<br/>Claude Cowork Guide"]
+  hub --> research_discover_grow["05 · Research, Discover & Grow"]
+  research_discover_grow --> research_discover_grow_projects["yt-insights<br/>Google Search Console MCP<br/>StarMapper<br/>github-roast-tpc"]
+  classDef hub fill:#f97316,color:#111827,stroke:#fb923c,stroke-width:3px
+  classDef route fill:#1f2937,color:#f9fafb,stroke:#94a3b8,stroke-width:2px
+  classDef projects fill:#111827,color:#e5e7eb,stroke:#475569
+  class hub hub
+  class build_run,observe_improve,secure_validate,learn_adopt,research_discover_grow route
+  class build_run_projects,observe_improve_projects,secure_validate_projects,learn_adopt_projects,research_discover_grow_projects projects
+```
+
+> **Project spotlight: [cc-skill-usage](https://github.com/FlorianBruniaux/cc-skill-usage).** It measures real Skill tool calls from local transcripts, so usage reports do not confuse invocations with prose mentions.
+
 ### Build & Run
 
 Build, connect, and operate agentic workflows.
 
 | Project | Use it when | Format |
 |---|---|---|
-| **[CC-Copilot Bridge](https://github.com/FlorianBruniaux/cc-copilot-bridge)** · [ccbridge.bruniaux.com](https://ccbridge.bruniaux.com/)<br><sub>routing · local AI · Rust</sub> | You need to change the model provider behind a Claude Code workflow. | CLI router |
-| **[claude-code-plugins](https://github.com/FlorianBruniaux/claude-code-plugins)**<br><sub>extensions · workflows · Claude Code</sub> | You want packaged skills, hooks, agents, and workflows instead of copying files manually. | Plugin collection |
-| **[ctxharness](https://github.com/FlorianBruniaux/ctxharness)**<br><sub>harnessing · docs integrity · quality</sub> | You need evidence that CLAUDE.md, AGENTS.md, and related context still match the repository. | CLI |
-| **[flow-lean](https://github.com/FlorianBruniaux/flow-lean)**<br><sub>output control · prompting · context</sub> | You want shorter action-first responses without stacking several overlapping skills. | Claude Code skill |
-| **[RTK](https://github.com/rtk-ai/rtk)** · [rtk-ai.app](https://www.rtk-ai.app/)<br><sub>token efficiency · CLI · Rust</sub> | Verbose Git, test, build, or infrastructure output consumes too much context. | CLI proxy |
+| **[CC-Copilot Bridge](https://github.com/FlorianBruniaux/cc-copilot-bridge)** · [ccbridge.bruniaux.com](https://ccbridge.bruniaux.com/)<br><kbd>Provider Routing</kbd> <kbd>Local AI</kbd> <kbd>Context Engineering</kbd> | You need to change the model provider behind a Claude Code workflow. | CLI router |
+| **[claude-code-plugins](https://github.com/FlorianBruniaux/claude-code-plugins)**<br><kbd>Agent Extensions</kbd> <kbd>Workflow Automation</kbd> <kbd>Harness</kbd> | You want packaged skills, hooks, agents, and workflows instead of copying files manually. | Plugin collection |
+| **[ctxharness](https://github.com/FlorianBruniaux/ctxharness)**<br><kbd>Context Engineering</kbd> <kbd>Harness</kbd> <kbd>Validation</kbd> | You need evidence that CLAUDE.md, AGENTS.md, and related context still match the repository. | CLI |
+| **[flow-lean](https://github.com/FlorianBruniaux/flow-lean)**<br><kbd>Context Engineering</kbd> <kbd>Prompting</kbd> <kbd>Token Efficiency</kbd> | You want shorter action-first responses without stacking several overlapping skills. | Claude Code skill |
+| **[RTK](https://github.com/rtk-ai/rtk)** · [rtk-ai.app](https://www.rtk-ai.app/)<br><kbd>Context Engineering</kbd> <kbd>Token Efficiency</kbd> <kbd>Output Control</kbd> | Verbose Git, test, build, or infrastructure output consumes too much context. | CLI proxy |
 
 ### Observe & Improve
 
@@ -70,9 +95,9 @@ Understand sessions and improve real usage.
 
 | Project | Use it when | Format |
 |---|---|---|
-| **[CCBoard](https://github.com/FlorianBruniaux/ccboard)** · [ccboard.bruniaux.com](https://ccboard.bruniaux.com/)<br><sub>observability · monitoring · Rust</sub> | You need a complete visual overview of sessions, activity, and analytics. | TUI + Web |
-| **[CC-Sessions](https://github.com/FlorianBruniaux/cc-sessions)**<br><sub>session search · local-first · history</sub> | You need a fast zero-dependency CLI for finding prior decisions or commands. | CLI |
-| **[cc-skill-usage](https://github.com/FlorianBruniaux/cc-skill-usage)**<br><sub>skills analytics · local-first · transcripts</sub> | You need to distinguish real Skill tool calls from prose mentions. | CLI |
+| **[CCBoard](https://github.com/FlorianBruniaux/ccboard)** · [ccboard.bruniaux.com](https://ccboard.bruniaux.com/)<br><kbd>Observability</kbd> <kbd>Session Analytics</kbd> <kbd>Monitoring</kbd> | You need a complete visual overview of sessions, activity, and analytics. | TUI + Web |
+| **[CC-Sessions](https://github.com/FlorianBruniaux/cc-sessions)**<br><kbd>Session Search</kbd> <kbd>Local-first</kbd> <kbd>Knowledge Retrieval</kbd> | You need a fast zero-dependency CLI for finding prior decisions or commands. | CLI |
+| **[cc-skill-usage](https://github.com/FlorianBruniaux/cc-skill-usage)**<br><kbd>Skill Analytics</kbd> <kbd>Local-first</kbd> <kbd>Observability</kbd> | You need to distinguish real Skill tool calls from prose mentions. | CLI |
 
 ### Secure & Validate
 
@@ -80,8 +105,8 @@ Reduce risk and verify code or configuration quality.
 
 | Project | Use it when | Format |
 |---|---|---|
-| **[agentsec-triage](https://github.com/FlorianBruniaux/agentsec-triage)** · [cc.bruniaux.com](https://cc.bruniaux.com/security/)<br><sub>security · supply chain · offline</sub> | You need a deterministic read-only scanner for a documented campaign or compromise signal. | Security CLI |
-| **[dep-scope](https://github.com/FlorianBruniaux/node-dep-scope)** · [npm](https://www.npmjs.com/package/@florianbruniaux/dep-scope)<br><sub>dependencies · code quality · TypeScript</sub> | You need to find unused package surface, duplicates, or native alternatives. | CLI + MCP |
+| **[agentsec-triage](https://github.com/FlorianBruniaux/agentsec-triage)** · [cc.bruniaux.com](https://cc.bruniaux.com/security/)<br><kbd>Security</kbd> <kbd>Supply Chain</kbd> <kbd>Validation</kbd> | You need a deterministic read-only scanner for a documented campaign or compromise signal. | Security CLI |
+| **[dep-scope](https://github.com/FlorianBruniaux/node-dep-scope)** · [npm](https://www.npmjs.com/package/@florianbruniaux/dep-scope)<br><kbd>Dependency Analysis</kbd> <kbd>Code Quality</kbd> <kbd>Validation</kbd> | You need to find unused package surface, duplicates, or native alternatives. | CLI + MCP |
 
 ### Learn & Adopt
 
@@ -89,8 +114,8 @@ Choose a learning route for developers or knowledge workers.
 
 | Project | Use it when | Format |
 |---|---|---|
-| **[Claude Code Ultimate Guide](https://github.com/FlorianBruniaux/claude-code-ultimate-guide)** · [cc.bruniaux.com](https://cc.bruniaux.com/)<br><sub>developers · reference · FR + EN</sub> | You need a maintained reference for architecture, workflows, security, and adoption. | Documentation |
-| **[Claude Cowork Guide](https://github.com/FlorianBruniaux/claude-cowork-guide)** · [cowork.bruniaux.com](https://cowork.bruniaux.com/)<br><sub>knowledge workers · workflows · FR + EN</sub> | Your work centers on documents, research, analysis, or cross-app tasks rather than software delivery. | Documentation |
+| **[Claude Code Ultimate Guide](https://github.com/FlorianBruniaux/claude-code-ultimate-guide)** · [cc.bruniaux.com](https://cc.bruniaux.com/)<br><kbd>AI Adoption</kbd> <kbd>Context Engineering</kbd> <kbd>Security</kbd> | You need a maintained reference for architecture, workflows, security, and adoption. | Documentation |
+| **[Claude Cowork Guide](https://github.com/FlorianBruniaux/claude-cowork-guide)** · [cowork.bruniaux.com](https://cowork.bruniaux.com/)<br><kbd>AI Adoption</kbd> <kbd>Knowledge Work</kbd> <kbd>Workflows</kbd> | Your work centers on documents, research, analysis, or cross-app tasks rather than software delivery. | Documentation |
 
 ### Research, Discover & Grow
 
@@ -98,10 +123,10 @@ Turn source material into knowledge, visibility, or discovery.
 
 | Project | Use it when | Format |
 |---|---|---|
-| **[yt-insights](https://github.com/FlorianBruniaux/youtube-video-insights)** · [PyPI](https://pypi.org/project/yt-insights/)<br><sub>research · local corpus · YouTube</sub> | You need transcripts, structured insights, local search, and repeatable reports from video sources. | CLI |
-| **[Google Search Console MCP](https://github.com/FlorianBruniaux/google-search-console-mcp)** · [PyPI](https://pypi.org/project/gsc-mcp/)<br><sub>SEO · analytics · growth</sub> | You need an agent-accessible interface for SEO analysis, indexing, and site diagnostics. | MCP server |
-| **[StarMapper](https://github.com/FlorianBruniaux/starmapper)** · [starmapper.bruniaux.com](https://starmapper.bruniaux.com/)<br><sub>GitHub discovery · audience · visualization</sub> | You want an interactive view of repository audience and geographic reach. | Web app |
-| **[github-roast-tpc](https://github.com/FlorianBruniaux/github-roast-tpc)**<br><sub>profile audit · GitHub · SEO</sub> | You want README, recruiter-signal, AI-marker, and profile-visibility feedback from a Claude Code plugin. | Claude Code plugin |
+| **[yt-insights](https://github.com/FlorianBruniaux/youtube-video-insights)** · [PyPI](https://pypi.org/project/yt-insights/)<br><kbd>Research</kbd> <kbd>Local Corpus</kbd> <kbd>Knowledge Extraction</kbd> | You need transcripts, structured insights, local search, and repeatable reports from video sources. | CLI |
+| **[Google Search Console MCP](https://github.com/FlorianBruniaux/google-search-console-mcp)** · [PyPI](https://pypi.org/project/gsc-mcp/)<br><kbd>SEO</kbd> <kbd>Analytics</kbd> <kbd>Growth</kbd> | You need an agent-accessible interface for SEO analysis, indexing, and site diagnostics. | MCP server |
+| **[StarMapper](https://github.com/FlorianBruniaux/starmapper)** · [starmapper.bruniaux.com](https://starmapper.bruniaux.com/)<br><kbd>GitHub Discovery</kbd> <kbd>Audience</kbd> <kbd>Visualization</kbd> | You want an interactive view of repository audience and geographic reach. | Web app |
+| **[github-roast-tpc](https://github.com/FlorianBruniaux/github-roast-tpc)**<br><kbd>Profile Audit</kbd> <kbd>GitHub</kbd> <kbd>SEO</kbd> | You want README, recruiter-signal, AI-marker, and profile-visibility feedback from a Claude Code plugin. | Claude Code plugin |
 <!-- END GENERATED OPEN SOURCE GALAXY -->
 
 ---
