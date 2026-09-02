@@ -131,6 +131,39 @@ Turn source material into knowledge, visibility, or discovery.
 
 ---
 
+## 💚 Sponsors
+
+<table>
+  <thead>
+    <tr>
+      <th>Logo</th>
+      <th>URL</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <a href="https://neon.com/">
+          <picture>
+            <source media="(prefers-color-scheme: dark)" srcset="assets/sponsors/neon-logo-dark-color.svg">
+            <source media="(prefers-color-scheme: light)" srcset="assets/sponsors/neon-logo-light-color.svg">
+            <img alt="Neon" src="assets/sponsors/neon-logo-light-color.svg" width="157">
+          </picture>
+        </a>
+      </td>
+      <td><a href="https://neon.com/">neon.com</a></td>
+      <td><a href="https://neon.com/">Neon</a> sponsors <a href="https://github.com/FlorianBruniaux/starmapper">StarMapper</a> and <a href="https://github.com/FlorianBruniaux/youtube-video-insights">YT Insights</a>. It provides PostgreSQL infrastructure for StarMapper and supports the future hosted data layer planned for YT Insights.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p align="center">
+  <strong><a href="https://www.florian.bruniaux.com/sponsor/">Become a sponsor →</a></strong>
+</p>
+
+---
+
 ## 📺 Talks & Appearances
 
 - 🔜 🇫🇷 Tronche de Tech, podcast with Mathieu Sanchez *(Jul 2026)*
