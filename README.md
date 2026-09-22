@@ -55,7 +55,7 @@ Choose a route based on the outcome you need. Each project appears once under it
 ```mermaid
 flowchart TB
   accTitle: AI engineering ecosystem map
-  accDescr: Five routes connect the ecosystem hub to all sixteen projects
+  accDescr: Five routes connect the ecosystem hub to all 17 projects
   hub(["AI engineering ecosystem"])
   hub --> build_run["01 · Build & Run"]
   build_run --> build_run_projects["CC-Copilot Bridge<br/>claude-code-plugins<br/>ctxharness<br/>flow-lean<br/>RTK"]
@@ -66,7 +66,7 @@ flowchart TB
   hub --> learn_adopt["04 · Learn & Adopt"]
   learn_adopt --> learn_adopt_projects["Claude Code Ultimate Guide<br/>Claude Cowork Guide"]
   hub --> research_discover_grow["05 · Research, Discover & Grow"]
-  research_discover_grow --> research_discover_grow_projects["yt-insights<br/>Google Search Console MCP<br/>StarMapper<br/>github-roast-tpc"]
+  research_discover_grow --> research_discover_grow_projects["yt-insights<br/>Paper Insights<br/>Google Search Console MCP<br/>StarMapper<br/>github-roast-tpc"]
   classDef hub fill:#f97316,color:#111827,stroke:#fb923c,stroke-width:3px
   classDef route fill:#1f2937,color:#f9fafb,stroke:#94a3b8,stroke-width:2px
   classDef projects fill:#111827,color:#e5e7eb,stroke:#475569
@@ -124,6 +124,7 @@ Turn source material into knowledge, visibility, or discovery.
 | Project | Use it when | Format |
 |---|---|---|
 | **[yt-insights](https://github.com/FlorianBruniaux/youtube-video-insights)** · [PyPI](https://pypi.org/project/yt-insights/)<br><kbd>Research</kbd> <kbd>Local Corpus</kbd> <kbd>Knowledge Extraction</kbd> | You need transcripts, structured insights, local search, and repeatable reports from video sources. | CLI |
+| **[Paper Insights](https://github.com/FlorianBruniaux/paper-insights)**<br><kbd>Research</kbd> <kbd>Scientific Papers</kbd> <kbd>Citations</kbd> | You need arXiv metadata search and traceable citations alongside video research. Experimental; human relevance review is pending. | CLI |
 | **[Google Search Console MCP](https://github.com/FlorianBruniaux/google-search-console-mcp)** · [PyPI](https://pypi.org/project/gsc-mcp/)<br><kbd>SEO</kbd> <kbd>Analytics</kbd> <kbd>Growth</kbd> | You need an agent-accessible interface for SEO analysis, indexing, and site diagnostics. | MCP server |
 | **[StarMapper](https://github.com/FlorianBruniaux/starmapper)** · [starmapper.bruniaux.com](https://starmapper.bruniaux.com/)<br><kbd>GitHub Discovery</kbd> <kbd>Audience</kbd> <kbd>Visualization</kbd> | You want an interactive view of repository audience and geographic reach. | Web app |
 | **[github-roast-tpc](https://github.com/FlorianBruniaux/github-roast-tpc)**<br><kbd>Profile Audit</kbd> <kbd>GitHub</kbd> <kbd>SEO</kbd> | You want README, recruiter-signal, AI-marker, and profile-visibility feedback from a Claude Code plugin. | Claude Code plugin |

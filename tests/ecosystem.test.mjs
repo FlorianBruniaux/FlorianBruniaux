@@ -16,11 +16,11 @@ function runCli(...args) {
   })
 }
 
-test('validate accepts the canonical 16-project galaxy', () => {
+test('validate accepts the canonical 17-project galaxy', () => {
   const result = runCli('validate')
 
   assert.equal(result.status, 0, result.stderr)
-  assert.match(result.stdout, /16 projects across 5 routes are valid/)
+  assert.match(result.stdout, /17 projects across 5 routes are valid/)
 })
 
 test('validate rejects broken identities, routes, relations, and RTK ownership', () => {
@@ -128,10 +128,10 @@ test('profile command replaces only the marked section with five route tables', 
     assert.doesNotMatch(rendered, /\| Link \|/)
     assert.match(rendered, /https:\/\/github\.com\/rtk-ai\/rtk/)
     assert.match(rendered, /https:\/\/www\.rtk-ai\.app\//)
-    assert.match(rendered, /<sub>token efficiency · CLI · Rust<\/sub>/)
+    assert.match(rendered, /<kbd>Token Efficiency<\/kbd>/)
 
     const projectRows = rendered.match(/^\| \*\*\[[^\n]+$/gm) ?? []
-    assert.equal(projectRows.length, 16)
+    assert.equal(projectRows.length, 17)
   } finally {
     rmSync(directory, { recursive: true, force: true })
   }
@@ -222,7 +222,7 @@ test('readme command refuses a target without generation markers', () => {
   }
 })
 
-test('landing command writes five routes and 16 projects from the manifest', () => {
+test('landing command writes five routes and 17 projects from the manifest', () => {
   const directory = mkdtempSync(join(tmpdir(), 'ecosystem-landing-'))
   const file = join(directory, 'personal-projects.generated.ts')
 
@@ -238,8 +238,8 @@ test('landing command writes five routes and 16 projects from the manifest', () 
     assert.match(rendered, /"title": "Research, Discover & Grow"/)
     assert.match(rendered, /"github": "https:\/\/github\.com\/rtk-ai\/rtk"/)
     assert.match(rendered, /"website": "https:\/\/www\.rtk-ai\.app\/"/)
-    assert.equal((rendered.match(/^    "id":/gm) ?? []).length, 21)
-    assert.equal((rendered.match(/"featured": true/g) ?? []).length, 3)
+    assert.equal((rendered.match(/^    "id":/gm) ?? []).length, 22)
+    assert.equal((rendered.match(/"featured": true/g) ?? []).length, 4)
   } finally {
     rmSync(directory, { recursive: true, force: true })
   }

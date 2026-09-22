@@ -8,7 +8,7 @@ The profile is the complete map. Each project README shows only its local neighb
 
 ## Scope
 
-The first release covers 16 projects grouped into five primary routes:
+The first release covered 16 projects grouped into five primary routes:
 
 1. Build & Run
 2. Observe & Improve
@@ -17,6 +17,10 @@ The first release covers 16 projects grouped into five primary routes:
 5. Research, Discover & Grow
 
 Each project has one primary route and up to three secondary tags. The generic label `AI` is excluded because it does not distinguish projects in this catalog.
+
+Paper Insights was added on 2026-09-22 as the seventeenth project under Research, Discover & Grow. It is an experimental CLI for arXiv metadata, local search, and traceable citations; human relevance review remains pending. Its relations with YT Insights describe complementary, independent corpora. Cross-corpus federation is planned.
+
+The validator requires a nonempty project list, and the accessible map derives its count from the manifest. Adding a project no longer requires changing a fixed-count validation rule. Paper Insights currently keeps its hand-maintained README section and sets `managed_readme` to `false`.
 
 ## Canonical manifest
 
@@ -77,7 +81,7 @@ French content is generated for `README.fr.md` in the Cowork repository. Other m
 
 ## Landing integration
 
-The manifest generates `src/data/personal-projects.generated.ts` in the Claude Code Guide landing repository. The existing homepage keeps three featured projects. `/projects/` groups all 16 projects by the same five routes used on the profile.
+The manifest generates `src/data/personal-projects.generated.ts` in the Claude Code Guide landing repository. Featured projects are selected by their manifest flags. The generated data groups projects by the same five routes used on the profile; publishing a manifest change does not update the landing deployment automatically.
 
 The landing page must not duplicate route labels, descriptions, project descriptions, formats, or URLs in a hand-maintained array.
 
@@ -107,7 +111,7 @@ The validator rejects:
 - `managed_readme: true` for RTK;
 - missing generation markers in a requested Markdown target.
 
-Node's built-in test runner covers validation, profile rendering, README rendering, landing rendering, explicit-path updates, and RTK write refusal. Landing tests verify 16 unique projects, five routes, and three featured projects. The landing build remains the runtime integration gate.
+Node's built-in test runner covers validation, catalog growth, profile rendering, README rendering, landing rendering, explicit-path updates, and RTK write refusal. Landing tests verify 17 unique projects, five routes, and four featured projects. The landing build remains the runtime integration gate.
 
 ## Worktree and dirty-repository policy
 

@@ -21,8 +21,8 @@ export function validateManifest(manifest) {
   if (!Array.isArray(manifest.routes) || manifest.routes.length !== 5) {
     throw new Error('manifest must define exactly 5 routes')
   }
-  if (!Array.isArray(manifest.projects) || manifest.projects.length !== 16) {
-    throw new Error('manifest must define exactly 16 projects')
+  if (!Array.isArray(manifest.projects) || manifest.projects.length === 0) {
+    throw new Error('manifest must define at least one project')
   }
 
   const routeIds = new Set()
@@ -129,7 +129,7 @@ function renderProfileMap(manifest) {
     '```mermaid',
     'flowchart TB',
     '  accTitle: AI engineering ecosystem map',
-    '  accDescr: Five routes connect the ecosystem hub to all sixteen projects',
+    `  accDescr: Five routes connect the ecosystem hub to all ${manifest.projects.length} projects`,
     '  hub(["AI engineering ecosystem"])',
     ...routeNodes,
     '  classDef hub fill:#f97316,color:#111827,stroke:#fb923c,stroke-width:3px',

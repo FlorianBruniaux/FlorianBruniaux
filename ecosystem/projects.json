@@ -424,6 +424,11 @@
       "managed_readme": true,
       "relations": [
         {
+          "project": "paper-insights",
+          "label": "Research papers with",
+          "reason": "search arXiv metadata and export traceable citations in a separate experimental corpus; cross-corpus federation is planned."
+        },
+        {
           "project": "cc-copilot-bridge",
           "label": "Run with",
           "reason": "use the LLM backend that yt-insights already detects automatically."
@@ -437,6 +442,36 @@
           "project": "claude-code-guide",
           "label": "Learn with",
           "reason": "reuse the guide's research and synthesis workflows."
+        }
+      ]
+    },
+    {
+      "id": "paper-insights",
+      "name": "Paper Insights",
+      "route": "research-discover-grow",
+      "description": "Build an experimental local corpus of arXiv metadata with FTS5 search and traceable citations.",
+      "use_when": "You need arXiv metadata search and traceable citations alongside video research. Experimental; human relevance review is pending.",
+      "format": "CLI",
+      "tags": ["Research", "Scientific Papers", "Citations"],
+      "icon": "📄",
+      "github": "https://github.com/FlorianBruniaux/paper-insights",
+      "landing_featured": false,
+      "managed_readme": false,
+      "relations": [
+        {
+          "project": "yt-insights",
+          "label": "Research videos with",
+          "reason": "search timestamped video transcripts alongside scientific papers while keeping each corpus and its provenance separate."
+        },
+        {
+          "project": "claude-code-guide",
+          "label": "Learn with",
+          "reason": "use the guide for agent workflows, skills, and research practices."
+        },
+        {
+          "project": "google-search-console-mcp",
+          "label": "Measure with",
+          "reason": "measure the search visibility of articles published from your research."
         }
       ]
     },
