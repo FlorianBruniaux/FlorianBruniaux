@@ -1,0 +1,33 @@
+tests/ecosystem.test.mjs
+  s_a374aa64c5b234::t_32d3ed756df26f 19,23,131,134,225,241-242
+docs/superpowers/specs/2026-09-01-open-source-galaxy-design.md
+  s_a374aa64c5b234::t_32d3ed756df26f 11,21-24,84,114
+CHANGELOG.md
+  s_a374aa64c5b234::t_32d3ed756df26f 1-13
+scripts/ecosystem.mjs
+  s_a374aa64c5b234::t_32d3ed756df26f 24-25,132
+scripts/ecosystem.test.mjs
+  s_a374aa64c5b234::t_0282c4d5ff09a0 8-29
+  s_a374aa64c5b234::t_32d3ed756df26f 36
+  s_a374aa64c5b234::t_982e91180753e8 30
+README.md
+  s_a374aa64c5b234::t_b31b4a68850676 58,69,127
+ecosystem/projects.json
+  s_a374aa64c5b234::t_ce1e5fd30aff0f 426-430,448-477
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "12a6664195da31978979875207f703f602534ce8",
+  "prompts": {},
+  "sessions": {
+    "s_a374aa64c5b234": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0c7e8-92f3-77d1-907f-06a834051207",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "Florian BRUNIAUX <florian@bruniaux.com>"
+    }
+  }
+}
