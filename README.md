@@ -167,7 +167,7 @@ Turn source material into knowledge, visibility, or discovery.
 
 ## 📺 Talks & Appearances
 
-- 🔜 🇫🇷 Tronche de Tech, podcast with Mathieu Sanchez *(Jul 2026)*
+- Sep 2026 🇫🇷 [Coder 5x plus vite (#79)](https://shows.acast.com/tronche-de-tech/episodes/79-florian-bruniaux-coder-5x-plus-vite) @ Tronche de Tech, with Mathieu Sanchez *(podcast)* · [Watch on YouTube](https://www.youtube.com/watch?v=gHAceskwBFY)
 - 2026 🇬🇧 [Building the StarMapper MCP App](https://www.youtube.com/watch?v=KFOx4r6uRjA) @ [Alpic](https://alpic.ai/) - live coding with Frédéric Barthelet
 - 2026 🇫🇷 [Ce qui t'ouvre les portes des top startups](https://www.youtube.com/watch?v=X_kmhNzessw) @ GitHub with AI *(live)*
 - 2026 🇫🇷 [Tokens : le nouveau cloud waste](https://techready.live/talks/talk-tokens-cloud-waste/) @ [Tech Ready Nantes](https://techready.live/) *(talk)*
