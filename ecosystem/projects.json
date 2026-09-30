@@ -67,6 +67,41 @@
       ]
     },
     {
+      "id": "agent-router",
+      "name": "Agent Router",
+      "route": "build-run",
+      "description": "Pick the model, effort and skills for each phase of a Claude Code or Codex task, and explain the choice.",
+      "use_when": "Planning, execution and verification should run on different models within a budget, with a decision you can review and replay. Pre-release; no measured cost gain is claimed yet.",
+      "format": "CLI",
+      "tags": ["Model Routing", "Cost Control", "Agent Workflows"],
+      "icon": "🧭",
+      "github": "https://github.com/FlorianBruniaux/agent-router",
+      "landing_featured": true,
+      "managed_readme": false,
+      "relations": [
+        {
+          "project": "cc-copilot-bridge",
+          "label": "Route providers with",
+          "reason": "the bridge changes the provider behind Claude Code while Agent Router picks the model for each task phase."
+        },
+        {
+          "project": "rtk",
+          "label": "Optimize with",
+          "reason": "RTK trims command output inside each phase Agent Router launches."
+        },
+        {
+          "project": "ccboard",
+          "label": "Observe with",
+          "reason": "monitor the sessions and costs of the phases Agent Router runs."
+        },
+        {
+          "project": "claude-code-guide",
+          "label": "Learn with",
+          "reason": "compare cost regimes and model choices in the AI FinOps section."
+        }
+      ]
+    },
+    {
       "id": "claude-code-plugins",
       "name": "claude-code-plugins",
       "route": "build-run",

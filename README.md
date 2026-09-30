@@ -55,10 +55,10 @@ Choose a route based on the outcome you need. Each project appears once under it
 ```mermaid
 flowchart TB
   accTitle: AI engineering ecosystem map
-  accDescr: Five routes connect the ecosystem hub to all 17 projects
+  accDescr: Five routes connect the ecosystem hub to all 18 projects
   hub(["AI engineering ecosystem"])
   hub --> build_run["01 · Build & Run"]
-  build_run --> build_run_projects["CC-Copilot Bridge<br/>claude-code-plugins<br/>ctxharness<br/>flow-lean<br/>RTK"]
+  build_run --> build_run_projects["CC-Copilot Bridge<br/>Agent Router<br/>claude-code-plugins<br/>ctxharness<br/>flow-lean<br/>RTK"]
   hub --> observe_improve["02 · Observe & Improve"]
   observe_improve --> observe_improve_projects["CCBoard<br/>CC-Sessions<br/>cc-skill-usage"]
   hub --> secure_validate["03 · Secure & Validate"]
@@ -84,6 +84,7 @@ Build, connect, and operate agentic workflows.
 | Project | Use it when | Format |
 |---|---|---|
 | **[CC-Copilot Bridge](https://github.com/FlorianBruniaux/cc-copilot-bridge)** · [ccbridge.bruniaux.com](https://ccbridge.bruniaux.com/)<br><kbd>Provider Routing</kbd> <kbd>Local AI</kbd> <kbd>Context Engineering</kbd> | You need to change the model provider behind a Claude Code workflow. | CLI router |
+| **[Agent Router](https://github.com/FlorianBruniaux/agent-router)**<br><kbd>Model Routing</kbd> <kbd>Cost Control</kbd> <kbd>Agent Workflows</kbd> | Planning, execution and verification should run on different models within a budget, with a decision you can review and replay. Pre-release; no measured cost gain is claimed yet. | CLI |
 | **[claude-code-plugins](https://github.com/FlorianBruniaux/claude-code-plugins)**<br><kbd>Agent Extensions</kbd> <kbd>Workflow Automation</kbd> <kbd>Harness</kbd> | You want packaged skills, hooks, agents, and workflows instead of copying files manually. | Plugin collection |
 | **[ctxharness](https://github.com/FlorianBruniaux/ctxharness)**<br><kbd>Context Engineering</kbd> <kbd>Harness</kbd> <kbd>Validation</kbd> | You need evidence that CLAUDE.md, AGENTS.md, and related context still match the repository. | CLI |
 | **[flow-lean](https://github.com/FlorianBruniaux/flow-lean)**<br><kbd>Context Engineering</kbd> <kbd>Prompting</kbd> <kbd>Token Efficiency</kbd> | You want shorter action-first responses without stacking several overlapping skills. | Claude Code skill |

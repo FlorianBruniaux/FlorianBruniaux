@@ -4,6 +4,7 @@
 
 ### Added
 
+- Agent Router in the build route of the profile catalog and landing menu, source-available under FSL-1.1-ALv2, with a note that no measured cost gain is claimed yet.
 - Paper Insights in the research route of the profile catalog and accessible map, with an experimental-status note.
 - Reciprocal Paper Insights and YT Insights relations in the canonical project manifest.
 
