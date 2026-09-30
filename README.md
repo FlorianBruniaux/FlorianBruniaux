@@ -12,6 +12,8 @@ Direct, kind, energetic. Always 8 projects running.
 I write about AI-assisted engineering and keep my guides updated, most weeks bring something new.
 
 - **[Claude Code Ultimate Guide](https://cc.bruniaux.com)**: the main reference, continuously updated (v3.43.0, 473 quiz questions across 17 categories, 13 whitepapers at 566 pages, 57 recap cards, 166-entry threat database)
+- **[The Real Cost of AI](https://www.florian.bruniaux.com/blog/series/the-real-cost-of-ai/)**: new 9-part series on what AI coding actually costs, from per-token pricing and invisible ROI to measured productivity, FinOps and vendor dependence
+- **[AI FinOps](https://cc.bruniaux.com/finops/)** and **[Token-saving tools](https://cc.bruniaux.com/token-savings/)**: the guide's cost pages, with three cost regimes, dated market prices, and 45 token-saving tools set against eight public benchmarks
 - **[Blog](https://www.florian.bruniaux.com/blog/)**: articles on context engineering, AI-assisted workflows, and real production data (git stats, DORA metrics, honest retrospectives)
 
 If you land here from a guide page or an article, starring the repo is the best way to see when something new ships.
@@ -25,7 +27,7 @@ If you land here from a guide page or an article, starring the repo is the best 
 - Active member of [Dev with AI](https://devw.ai/), a French-speaking AI community of ~3,000 people today, aiming to become the reference AI community in France and, eventually, Europe
 - Workshops on AI-assisted development for dev teams
 - Occasional speaker at conferences, live streams, talks, BBLs and podcasts ([media](https://www.florian.bruniaux.com/media/))
-- AI enthusiast building in public: 5,000+ stars across my own AI tooling projects, plus core team on RTK (77,000+ stars)
+- AI enthusiast building in public: 6,700+ stars across my own AI tooling projects, plus core team on RTK (82,000+ stars)
 
 ---
 
@@ -33,11 +35,15 @@ If you land here from a guide page or an article, starring the repo is the best 
 
 ### [Claude Code Ultimate Guide](https://github.com/FlorianBruniaux/claude-code-ultimate-guide)
 Comprehensive resource for AI-assisted development with Claude Code. Documentation-as-product: 473 quiz questions (17 categories), 13 whitepapers (566 pages, FR+EN), 57 recap cards, threat database with 166 catalogued malicious skills/CVEs.
-**5,000+ stars** · **600+ forks** · [cc.bruniaux.com](https://cc.bruniaux.com)
+**6,000+ stars** · **790+ forks** · [cc.bruniaux.com](https://cc.bruniaux.com)
 
 ### [RTK - Rust Token Killer](https://github.com/rtk-ai/rtk)
-CLI proxy that reduces LLM token consumption by 60-90% on common dev operations. Intercepts Git, GitHub CLI, Cargo, pnpm, Vitest, Playwright, Docker, Kubernetes and compresses output to what actually matters.
-**77,000+ stars** · Core team member & evangelist · [rtk-ai.app](https://www.rtk-ai.app)
+CLI proxy that compresses the output of common dev commands (Git, GitHub CLI, Cargo, pnpm, Vitest, Playwright, Docker, Kubernetes) before it reaches the agent. The project reports 60-90% fewer tokens on that output; whole-task studies are collected on [cc.bruniaux.com/token-savings](https://cc.bruniaux.com/token-savings/).
+**82,000+ stars** · Core team member & evangelist · [rtk-ai.app](https://www.rtk-ai.app)
+
+### [Agent Router](https://github.com/FlorianBruniaux/agent-router)
+Local Rust CLI that picks the model, effort and skills for each phase of a Claude Code or Codex task (plan, execute, verify) and explains why. Limits are checked before scoring, decisions replay to the same receipt, and nothing runs without an approved digest. Experimental: no measured cost gain is claimed yet.
+**New** · Source-available (FSL-1.1-ALv2)
 
 ### [StarMapper](https://github.com/FlorianBruniaux/starmapper)
 Map any GitHub repository's stargazers on an interactive world map. Paste a repo URL, get a live geocoded map with clustering, country stats, and an embeddable badge. Next.js + MapLibre + Neon Postgres.
@@ -182,6 +188,18 @@ Turn source material into knowledge, visibility, or discovery.
 
 ## ✍️ Writing
 
+**The Real Cost of AI** (9-part series, Sep 2026)
+
+- 1/9 · [A $214 AI coding agent rewrite](https://www.florian.bruniaux.com/blog/articles/real-cost-of-ai-agent-pricing/)
+- 2/9 · [Why AI ROI stays invisible, even to the people measuring it](https://www.florian.bruniaux.com/blog/articles/real-cost-of-ai-roi-invisible/)
+- 3/9 · [AI coding productivity at scale: 15-20% measured, 20x in one team](https://www.florian.bruniaux.com/blog/articles/real-cost-of-ai-productivity-reality/)
+- 4/9 · [FinOps applied to tokens: who owns the AI bill](https://www.florian.bruniaux.com/blog/articles/real-cost-of-ai-finops/)
+- 5/9 · [The price-per-token lie: why cheaper models don't mean cheaper bills](https://www.florian.bruniaux.com/blog/articles/real-cost-of-ai-price-per-token-lie/)
+- 6/9 · [You cannot depend on a single AI vendor](https://www.florian.bruniaux.com/blog/articles/real-cost-of-ai-vendor-dependence/)
+- 7/9 · [Doctolib's cross-verified AI adoption data](https://www.florian.bruniaux.com/blog/articles/real-cost-of-ai-doctolib-case-study/)
+- 8/9 · [The trillion-dollar backdrop: what markets see that teams don't](https://www.florian.bruniaux.com/blog/articles/real-cost-of-ai-market-backdrop/)
+- 9/9 · [Measuring your own AI usage: three meters, three different answers](https://www.florian.bruniaux.com/blog/articles/real-cost-of-ai-measuring-your-own-usage/)
+
 **Context Engineering** (6-part series)
 
 - 1/6 · [The Same Model, Opposite Results: Context Is the Variable](https://www.florian.bruniaux.com/blog/articles/context-engineering-the-hidden-variable/)
@@ -212,7 +230,7 @@ Turn source material into knowledge, visibility, or discovery.
 
 **12+ years:** Developer → Team Lead → EM → VP Engineering → CTO → back to hands-on by choice.
 
-**Why hands-on?** After a decade leading teams (4-150 people, managed up to 30 engineers), I deliberately stepped back to sharpen my technical edge. Leadership is more effective when grounded in current engineering reality. In the first 3 months of 2026, that bet produced 10+ open-source projects, 5,000+ stars on my own, plus core contributions to RTK (77,000+ stars).
+**Why hands-on?** After a decade leading teams (4-150 people, managed up to 30 engineers), I deliberately stepped back to sharpen my technical edge. Leadership is more effective when grounded in current engineering reality. In the first 3 months of 2026, that bet produced 10+ open-source projects, 5,000+ stars on my own, plus core contributions to RTK (82,000+ stars).
 
 **Leadership experience:**
 - Built and scaled engineering teams from scratch (early-stage → Series A → scale-up)
