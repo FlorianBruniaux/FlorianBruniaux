@@ -51,6 +51,12 @@ export function validateManifest(manifest) {
     if (project.managed_readme && !project.github) {
       throw new Error(`${project.id} needs a GitHub URL when its README is managed`)
     }
+    if (project.status !== undefined && project.status !== 'soon') {
+      throw new Error(`${project.id} has unknown status ${project.status}`)
+    }
+    if (project.status === 'soon' && !project.preview_url?.startsWith('https://')) {
+      throw new Error(`${project.id} needs an HTTPS preview URL while it is coming soon`)
+    }
   }
 
   for (const project of manifest.projects) {
@@ -105,6 +111,18 @@ function githubAnchor(title) {
     .replaceAll(' ', '-')
 }
 
+function isSoon(project) {
+  return project.status === 'soon'
+}
+
+function projectDisplayName(project) {
+  return isSoon(project) ? `${project.name} (soon)` : project.name
+}
+
+function projectHref(project) {
+  return isSoon(project) ? project.preview_url : project.website ?? project.github
+}
+
 function mermaidId(value) {
   return value.replaceAll('-', '_')
 }
@@ -114,7 +132,7 @@ function renderProfileMap(manifest) {
     const routeId = mermaidId(route.id)
     const projectNames = manifest.projects
       .filter((project) => project.route === route.id)
-      .map((project) => project.name)
+      .map(projectDisplayName)
       .join('<br/>')
 
     return [
@@ -152,8 +170,10 @@ export function renderProfile(manifest) {
       .filter((project) => project.route === route.id)
       .map((project) => {
         const website = project.website ? ` · [${websiteLabel(project.website)}](${project.website})` : ''
+        const soon = isSoon(project) ? ' · Soon' : ''
+        const link = isSoon(project) ? project.preview_url : project.github
         const tags = project.tags.map((tag) => `<kbd>${tag}</kbd>`).join(' ')
-        return `| **[${project.name}](${project.github})**${website}<br>${tags} | ${project.use_when} | ${project.format} |`
+        return `| **[${project.name}](${link})**${website}${soon}<br>${tags} | ${project.use_when} | ${project.format} |`
       })
       .join('\n')
 
@@ -196,7 +216,9 @@ export function renderReadme(manifest, projectId, locale = 'en') {
     const label = french ? relation.label_fr ?? relation.label : relation.label
     const reason = french ? relation.reason_fr ?? relation.reason : relation.reason
     const separator = french ? ' :' : ':'
-    return `- **${label} [${target.name}](${target.github})**${separator} ${reason}`
+    const name = isSoon(target) ? `${target.name} (soon)` : target.name
+    const link = isSoon(target) ? target.preview_url : target.github
+    return `- **${label} [${name}](${link})**${separator} ${reason}`
   })
 
   return [
@@ -225,11 +247,12 @@ export function renderLanding(manifest) {
     useWhen: project.use_when,
     format: project.format,
     tags: project.tags,
-    href: project.website ?? project.github,
+    href: projectHref(project),
     github: project.github,
     website: project.website,
     route: project.route,
     featured: project.landing_featured,
+    status: project.status,
   }))
 
   return [

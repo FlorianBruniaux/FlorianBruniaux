@@ -76,6 +76,8 @@
       "tags": ["Model Routing", "Cost Control", "Agent Workflows"],
       "icon": "🧭",
       "github": "https://github.com/FlorianBruniaux/agent-router",
+      "status": "soon",
+      "preview_url": "https://cc.bruniaux.com/guide/third-party-tools/#agent-router",
       "landing_featured": true,
       "managed_readme": false,
       "relations": [

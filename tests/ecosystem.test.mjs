@@ -85,6 +85,16 @@ test('validate rejects broken identities, routes, relations, and RTK ownership',
       mutate: (manifest) => { manifest.projects.find((project) => project.id === 'rtk').managed_readme = true },
       error: /RTK README must remain unmanaged/,
     },
+    {
+      name: 'unknown project status',
+      mutate: (manifest) => { manifest.projects[0].status = 'beta' },
+      error: /unknown status beta/,
+    },
+    {
+      name: 'coming-soon project without preview URL',
+      mutate: (manifest) => { delete manifest.projects.find((project) => project.id === 'agent-router').preview_url },
+      error: /needs an HTTPS preview URL/,
+    },
   ]
 
   for (const scenario of cases) {
@@ -240,6 +250,8 @@ test('landing command writes five routes and 18 projects from the manifest', () 
     assert.match(rendered, /"website": "https:\/\/www\.rtk-ai\.app\/"/)
     assert.equal((rendered.match(/^    "id":/gm) ?? []).length, 23)
     assert.equal((rendered.match(/"featured": true/g) ?? []).length, 5)
+    assert.match(rendered, /"href": "https:\/\/cc\.bruniaux\.com\/guide\/third-party-tools\/#agent-router"/)
+    assert.equal((rendered.match(/"status": "soon"/g) ?? []).length, 1)
   } finally {
     rmSync(directory, { recursive: true, force: true })
   }

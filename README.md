@@ -41,9 +41,9 @@ Comprehensive resource for AI-assisted development with Claude Code. Documentati
 CLI proxy that compresses the output of common dev commands (Git, GitHub CLI, Cargo, pnpm, Vitest, Playwright, Docker, Kubernetes) before it reaches the agent. The project reports 60-90% fewer tokens on that output; whole-task studies are collected on [cc.bruniaux.com/token-savings](https://cc.bruniaux.com/token-savings/).
 **82,000+ stars** · Core team member & evangelist · [rtk-ai.app](https://www.rtk-ai.app)
 
-### [Agent Router](https://github.com/FlorianBruniaux/agent-router)
+### [Agent Router](https://cc.bruniaux.com/guide/third-party-tools/#agent-router) (soon)
 Local Rust CLI that picks the model, effort and skills for each phase of a Claude Code or Codex task (plan, execute, verify) and explains why. Limits are checked before scoring, decisions replay to the same receipt, and nothing runs without an approved digest. Experimental: no measured cost gain is claimed yet.
-**New** · Source-available (FSL-1.1-ALv2)
+**Soon**: the repository is not public yet · Source-available (FSL-1.1-ALv2)
 
 ### [StarMapper](https://github.com/FlorianBruniaux/starmapper)
 Map any GitHub repository's stargazers on an interactive world map. Paste a repo URL, get a live geocoded map with clustering, country stats, and an embeddable badge. Next.js + MapLibre + Neon Postgres.
@@ -64,7 +64,7 @@ flowchart TB
   accDescr: Five routes connect the ecosystem hub to all 18 projects
   hub(["AI engineering ecosystem"])
   hub --> build_run["01 · Build & Run"]
-  build_run --> build_run_projects["CC-Copilot Bridge<br/>Agent Router<br/>claude-code-plugins<br/>ctxharness<br/>flow-lean<br/>RTK"]
+  build_run --> build_run_projects["CC-Copilot Bridge<br/>Agent Router (soon)<br/>claude-code-plugins<br/>ctxharness<br/>flow-lean<br/>RTK"]
   hub --> observe_improve["02 · Observe & Improve"]
   observe_improve --> observe_improve_projects["CCBoard<br/>CC-Sessions<br/>cc-skill-usage"]
   hub --> secure_validate["03 · Secure & Validate"]
@@ -90,7 +90,7 @@ Build, connect, and operate agentic workflows.
 | Project | Use it when | Format |
 |---|---|---|
 | **[CC-Copilot Bridge](https://github.com/FlorianBruniaux/cc-copilot-bridge)** · [ccbridge.bruniaux.com](https://ccbridge.bruniaux.com/)<br><kbd>Provider Routing</kbd> <kbd>Local AI</kbd> <kbd>Context Engineering</kbd> | You need to change the model provider behind a Claude Code workflow. | CLI router |
-| **[Agent Router](https://github.com/FlorianBruniaux/agent-router)**<br><kbd>Model Routing</kbd> <kbd>Cost Control</kbd> <kbd>Agent Workflows</kbd> | Planning, execution and verification should run on different models within a budget, with a decision you can review and replay. Pre-release; no measured cost gain is claimed yet. | CLI |
+| **[Agent Router](https://cc.bruniaux.com/guide/third-party-tools/#agent-router)** · Soon<br><kbd>Model Routing</kbd> <kbd>Cost Control</kbd> <kbd>Agent Workflows</kbd> | Planning, execution and verification should run on different models within a budget, with a decision you can review and replay. Pre-release; no measured cost gain is claimed yet. | CLI |
 | **[claude-code-plugins](https://github.com/FlorianBruniaux/claude-code-plugins)**<br><kbd>Agent Extensions</kbd> <kbd>Workflow Automation</kbd> <kbd>Harness</kbd> | You want packaged skills, hooks, agents, and workflows instead of copying files manually. | Plugin collection |
 | **[ctxharness](https://github.com/FlorianBruniaux/ctxharness)**<br><kbd>Context Engineering</kbd> <kbd>Harness</kbd> <kbd>Validation</kbd> | You need evidence that CLAUDE.md, AGENTS.md, and related context still match the repository. | CLI |
 | **[flow-lean](https://github.com/FlorianBruniaux/flow-lean)**<br><kbd>Context Engineering</kbd> <kbd>Prompting</kbd> <kbd>Token Efficiency</kbd> | You want shorter action-first responses without stacking several overlapping skills. | Claude Code skill |
