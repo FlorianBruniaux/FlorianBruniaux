@@ -4,6 +4,10 @@
 
 ### Added
 
+- Worktree Sweep in `What I Build`, the Observe & Improve catalog and
+  the 19-project Mermaid map. The coming-soon entry links to its public profile
+  preview while the repository remains private, and states the read-only MVP's
+  backup, restore and removal limits.
 - Profile README: The Real Cost of AI series (9 parts) in Blog & Guides and Writing, links to the AI FinOps and token-saving tools pages, an Agent Router entry, star counts read on 2026-09-30, and an RTK description that attributes the 60-90% figure to the project and points to whole-task studies.
 - Agent Router in the build route of the profile catalog and landing menu, source-available under FSL-1.1-ALv2, with a note that no measured cost gain is claimed yet.
 - Optional `status: "soon"` with a required HTTPS `preview_url` in the project manifest: the profile tables, the Mermaid map and related READMEs show the project as soon and link the preview, and the landing data carries the status. Agent Router uses it while its repository is private.

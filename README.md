@@ -45,6 +45,10 @@ CLI proxy that compresses the output of common dev commands (Git, GitHub CLI, Ca
 Local Rust CLI that picks the model, effort and skills for each phase of a Claude Code or Codex task (plan, execute, verify) and explains why. Limits are checked before scoring, decisions replay to the same receipt, and nothing runs without an approved digest. Experimental: no measured cost gain is claimed yet.
 **Soon**: the repository is not public yet · Source-available (FSL-1.1-ALv2)
 
+### Worktree Sweep (private preview)
+
+Read-only Rust CLI for macOS to inventory Git worktrees, check commit relationships against selected refs, and inspect local files. A commit can be integrated while untracked or ignored files still need preservation. Backup, restore and removal are unavailable in this MVP.
+
 ### [StarMapper](https://github.com/FlorianBruniaux/starmapper)
 Map any GitHub repository's stargazers on an interactive world map. Paste a repo URL, get a live geocoded map with clustering, country stats, and an embeddable badge. Next.js + MapLibre + Neon Postgres.
 [starmapper.bruniaux.com](https://starmapper.bruniaux.com)
@@ -61,12 +65,12 @@ Choose a route based on the outcome you need. Each project appears once under it
 ```mermaid
 flowchart TB
   accTitle: AI engineering ecosystem map
-  accDescr: Five routes connect the ecosystem hub to all 18 projects
+  accDescr: Five routes connect the ecosystem hub to all 19 projects
   hub(["AI engineering ecosystem"])
   hub --> build_run["01 · Build & Run"]
   build_run --> build_run_projects["CC-Copilot Bridge<br/>Agent Router (soon)<br/>claude-code-plugins<br/>ctxharness<br/>flow-lean<br/>RTK"]
   hub --> observe_improve["02 · Observe & Improve"]
-  observe_improve --> observe_improve_projects["CCBoard<br/>CC-Sessions<br/>cc-skill-usage"]
+  observe_improve --> observe_improve_projects["CCBoard<br/>CC-Sessions<br/>cc-skill-usage<br/>Worktree Sweep (soon)"]
   hub --> secure_validate["03 · Secure & Validate"]
   secure_validate --> secure_validate_projects["agentsec-triage<br/>dep-scope"]
   hub --> learn_adopt["04 · Learn & Adopt"]
@@ -98,13 +102,14 @@ Build, connect, and operate agentic workflows.
 
 ### Observe & Improve
 
-Understand sessions and improve real usage.
+Inspect sessions, worktrees, and tool usage.
 
 | Project | Use it when | Format |
 |---|---|---|
 | **[CCBoard](https://github.com/FlorianBruniaux/ccboard)** · [ccboard.bruniaux.com](https://ccboard.bruniaux.com/)<br><kbd>Observability</kbd> <kbd>Session Analytics</kbd> <kbd>Monitoring</kbd> | You need a complete visual overview of sessions, activity, and analytics. | TUI + Web |
 | **[CC-Sessions](https://github.com/FlorianBruniaux/cc-sessions)**<br><kbd>Session Search</kbd> <kbd>Local-first</kbd> <kbd>Knowledge Retrieval</kbd> | You need a fast zero-dependency CLI for finding prior decisions or commands. | CLI |
 | **[cc-skill-usage](https://github.com/FlorianBruniaux/cc-skill-usage)**<br><kbd>Skill Analytics</kbd> <kbd>Local-first</kbd> <kbd>Observability</kbd> | You need to distinguish real Skill tool calls from prose mentions. | CLI |
+| **[Worktree Sweep](https://github.com/FlorianBruniaux#worktree-sweep-private-preview)** · Soon<br><kbd>Git Worktrees</kbd> <kbd>Integration Evidence</kbd> <kbd>Read-only</kbd> | You need to inventory Git worktrees and inspect their commits and local files before planning cleanup. Read-only macOS MVP; backup, restore and removal are unavailable. Repository currently private. | Rust CLI |
 
 ### Secure & Validate
 

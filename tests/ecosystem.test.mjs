@@ -16,11 +16,11 @@ function runCli(...args) {
   })
 }
 
-test('validate accepts the canonical 18-project galaxy', () => {
+test('validate accepts the canonical 19-project galaxy', () => {
   const result = runCli('validate')
 
   assert.equal(result.status, 0, result.stderr)
-  assert.match(result.stdout, /18 projects across 5 routes are valid/)
+  assert.match(result.stdout, /19 projects across 5 routes are valid/)
 })
 
 test('validate rejects broken identities, routes, relations, and RTK ownership', () => {
@@ -141,7 +141,7 @@ test('profile command replaces only the marked section with five route tables', 
     assert.match(rendered, /<kbd>Token Efficiency<\/kbd>/)
 
     const projectRows = rendered.match(/^\| \*\*\[[^\n]+$/gm) ?? []
-    assert.equal(projectRows.length, 18)
+    assert.equal(projectRows.length, 19)
   } finally {
     rmSync(directory, { recursive: true, force: true })
   }
@@ -232,7 +232,7 @@ test('readme command refuses a target without generation markers', () => {
   }
 })
 
-test('landing command writes five routes and 18 projects from the manifest', () => {
+test('landing command writes five routes and 19 projects from the manifest', () => {
   const directory = mkdtempSync(join(tmpdir(), 'ecosystem-landing-'))
   const file = join(directory, 'personal-projects.generated.ts')
 
@@ -248,10 +248,10 @@ test('landing command writes five routes and 18 projects from the manifest', () 
     assert.match(rendered, /"title": "Research, Discover & Grow"/)
     assert.match(rendered, /"github": "https:\/\/github\.com\/rtk-ai\/rtk"/)
     assert.match(rendered, /"website": "https:\/\/www\.rtk-ai\.app\/"/)
-    assert.equal((rendered.match(/^    "id":/gm) ?? []).length, 23)
+    assert.equal((rendered.match(/^    "id":/gm) ?? []).length, 24)
     assert.equal((rendered.match(/"featured": true/g) ?? []).length, 5)
     assert.match(rendered, /"href": "https:\/\/cc\.bruniaux\.com\/guide\/third-party-tools\/#agent-router"/)
-    assert.equal((rendered.match(/"status": "soon"/g) ?? []).length, 1)
+    assert.equal((rendered.match(/"status": "soon"/g) ?? []).length, 2)
   } finally {
     rmSync(directory, { recursive: true, force: true })
   }

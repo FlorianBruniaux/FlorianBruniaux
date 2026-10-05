@@ -11,7 +11,7 @@
     {
       "id": "observe-improve",
       "title": "Observe & Improve",
-      "description": "Understand sessions and improve real usage."
+      "description": "Inspect sessions, worktrees, and tool usage."
     },
     {
       "id": "secure-validate",
@@ -329,6 +329,23 @@
           "reason": "verify empirically that the advertised skill is actually invoked."
         }
       ]
+    },
+    {
+      "id": "wt-sweep",
+      "name": "Worktree Sweep",
+      "route": "observe-improve",
+      "description": "Inventory Git worktrees and review their commits and local files on macOS.",
+      "use_when": "You need to inventory Git worktrees and inspect their commits and local files before planning cleanup. Read-only macOS MVP; backup, restore and removal are unavailable. Repository currently private.",
+      "format": "Rust CLI",
+      "tags": ["Git Worktrees", "Integration Evidence", "Read-only"],
+      "icon": "🌿",
+      "github": "https://github.com/FlorianBruniaux/wt-sweep",
+      "website": null,
+      "status": "soon",
+      "preview_url": "https://github.com/FlorianBruniaux#worktree-sweep-private-preview",
+      "landing_featured": false,
+      "managed_readme": false,
+      "relations": []
     },
     {
       "id": "agentsec-triage",
