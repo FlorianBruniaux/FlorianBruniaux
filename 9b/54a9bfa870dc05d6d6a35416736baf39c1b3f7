@@ -1,0 +1,33 @@
+scripts/ecosystem.test.mjs
+  s_b091cb578646a0::t_6a8a1256068bf5 50,53-54
+README.md
+  s_b091cb578646a0::t_7e671d937190e9 48-51,83,92,144
+ecosystem/projects.json
+  s_e488605d7362bc::t_994e2884ca3dd5 534,536-537,542
+scripts/ecosystem.mjs
+  s_e488605d7362bc::t_56359ab6586f11 200
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "9b54a9bfa870dc05d6d6a35416736baf39c1b3f7",
+  "prompts": {},
+  "sessions": {
+    "s_b091cb578646a0": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0718b-a441-7733-a805-7d6404ed8ff0",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Florian BRUNIAUX <florian@bruniaux.com>"
+    },
+    "s_e488605d7362bc": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1114b-25b9-7151-aca6-1a0a544c7bfd",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "Florian BRUNIAUX <florian@bruniaux.com>"
+    }
+  }
+}
