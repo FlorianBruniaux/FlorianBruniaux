@@ -197,7 +197,7 @@ export function renderProfile(manifest) {
     '',
     renderProfileMap(manifest),
     '',
-    '> **Project spotlight: [cc-skill-usage](https://github.com/FlorianBruniaux/cc-skill-usage).** It measures real Skill tool calls from local transcripts, so usage reports do not confuse invocations with prose mentions.',
+    '> **Project spotlight: [Search Console MCP](https://search-console.bruniaux.com/).** Connect Claude, Codex, and other MCP clients to Google Search Console and Bing Webmaster Tools through 81 structured tools. [View the repository](https://github.com/FlorianBruniaux/google-search-console-mcp).',
     '',
     ...sections.flatMap((section, index) => index === 0 ? [section] : ['', section]),
   ].join('\n')

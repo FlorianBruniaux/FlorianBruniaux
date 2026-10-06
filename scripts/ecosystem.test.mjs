@@ -47,9 +47,9 @@ test('profile output renders controlled facets as badges', () => {
   assert.doesNotMatch(output, /<kbd>AI<\/kbd>/)
 })
 
-test('profile output spotlights cc-skill-usage', () => {
+test('profile output spotlights Search Console MCP and its landing', () => {
   const output = renderProfile(manifest)
 
-  assert.match(output, /Project spotlight: \[cc-skill-usage\]/)
-  assert.match(output, /real Skill tool calls from local transcripts/)
+  assert.match(output, /Project spotlight: \[Search Console MCP\]\(https:\/\/search-console\.bruniaux\.com\/\)/)
+  assert.match(output, /Google Search Console and Bing Webmaster Tools/)
 })

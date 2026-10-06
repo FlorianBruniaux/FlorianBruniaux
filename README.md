@@ -45,6 +45,10 @@ CLI proxy that compresses the output of common dev commands (Git, GitHub CLI, Ca
 Local Rust CLI that picks the model, effort and skills for each phase of a Claude Code or Codex task (plan, execute, verify) and explains why. Limits are checked before scoring, decisions replay to the same receipt, and nothing runs without an approved digest. Experimental: no measured cost gain is claimed yet.
 **Soon**: the repository is not public yet · Source-available (FSL-1.1-ALv2)
 
+### [Search Console MCP](https://search-console.bruniaux.com/)
+Connect Claude, Codex, and other MCP clients to Google Search Console, Bing Webmaster Tools, GA4, CrUX, and public-page analysis through 81 structured tools.
+**[Open the bilingual product site](https://search-console.bruniaux.com/)** · [Documentation](https://search-console.bruniaux.com/docs/) · [GitHub](https://github.com/FlorianBruniaux/google-search-console-mcp) · [PyPI](https://pypi.org/project/gsc-mcp-tools/)
+
 ### Worktree Sweep (private preview)
 
 Read-only Rust CLI for macOS to inventory Git worktrees, check commit relationships against selected refs, and inspect local files. A commit can be integrated while untracked or ignored files still need preservation. Backup, restore and removal are unavailable in this MVP.
@@ -76,7 +80,7 @@ flowchart TB
   hub --> learn_adopt["04 · Learn & Adopt"]
   learn_adopt --> learn_adopt_projects["Claude Code Ultimate Guide<br/>Claude Cowork Guide"]
   hub --> research_discover_grow["05 · Research, Discover & Grow"]
-  research_discover_grow --> research_discover_grow_projects["yt-insights<br/>Paper Insights<br/>Google Search Console MCP<br/>StarMapper<br/>github-roast-tpc"]
+  research_discover_grow --> research_discover_grow_projects["yt-insights<br/>Paper Insights<br/>Search Console MCP<br/>StarMapper<br/>github-roast-tpc"]
   classDef hub fill:#f97316,color:#111827,stroke:#fb923c,stroke-width:3px
   classDef route fill:#1f2937,color:#f9fafb,stroke:#94a3b8,stroke-width:2px
   classDef projects fill:#111827,color:#e5e7eb,stroke:#475569
@@ -85,7 +89,7 @@ flowchart TB
   class build_run_projects,observe_improve_projects,secure_validate_projects,learn_adopt_projects,research_discover_grow_projects projects
 ```
 
-> **Project spotlight: [cc-skill-usage](https://github.com/FlorianBruniaux/cc-skill-usage).** It measures real Skill tool calls from local transcripts, so usage reports do not confuse invocations with prose mentions.
+> **Project spotlight: [Search Console MCP](https://search-console.bruniaux.com/).** Connect Claude, Codex, and other MCP clients to Google Search Console and Bing Webmaster Tools through 81 structured tools. [View the repository](https://github.com/FlorianBruniaux/google-search-console-mcp).
 
 ### Build & Run
 
@@ -137,7 +141,7 @@ Turn source material into knowledge, visibility, or discovery.
 |---|---|---|
 | **[yt-insights](https://github.com/FlorianBruniaux/youtube-video-insights)** · [PyPI](https://pypi.org/project/yt-insights/)<br><kbd>Research</kbd> <kbd>Local Corpus</kbd> <kbd>Knowledge Extraction</kbd> | You need transcripts, structured insights, local search, and repeatable reports from video sources. | CLI |
 | **[Paper Insights](https://github.com/FlorianBruniaux/paper-insights)**<br><kbd>Research</kbd> <kbd>Scientific Papers</kbd> <kbd>Citations</kbd> | You need arXiv metadata search and traceable citations alongside video research. Experimental; human relevance review is pending. | CLI |
-| **[Google Search Console MCP](https://github.com/FlorianBruniaux/google-search-console-mcp)** · [PyPI](https://pypi.org/project/gsc-mcp/)<br><kbd>SEO</kbd> <kbd>Analytics</kbd> <kbd>Growth</kbd> | You need an agent-accessible interface for SEO analysis, indexing, and site diagnostics. | MCP server |
+| **[Search Console MCP](https://github.com/FlorianBruniaux/google-search-console-mcp)** · [search-console.bruniaux.com](https://search-console.bruniaux.com/)<br><kbd>SEO</kbd> <kbd>Analytics</kbd> <kbd>Growth</kbd> | You need an agent-accessible interface for cross-engine SEO analysis, indexing, and site diagnostics. | MCP server |
 | **[StarMapper](https://github.com/FlorianBruniaux/starmapper)** · [starmapper.bruniaux.com](https://starmapper.bruniaux.com/)<br><kbd>GitHub Discovery</kbd> <kbd>Audience</kbd> <kbd>Visualization</kbd> | You want an interactive view of repository audience and geographic reach. | Web app |
 | **[github-roast-tpc](https://github.com/FlorianBruniaux/github-roast-tpc)**<br><kbd>Profile Audit</kbd> <kbd>GitHub</kbd> <kbd>SEO</kbd> | You want README, recruiter-signal, AI-marker, and profile-visibility feedback from a Claude Code plugin. | Claude Code plugin |
 <!-- END GENERATED OPEN SOURCE GALAXY -->
