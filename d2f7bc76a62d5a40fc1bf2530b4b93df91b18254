@@ -1,0 +1,36 @@
+tests/ecosystem.test.mjs
+  s_160b3107588443::t_c44227c761eb29 19,23,144,235,251,254
+README.md
+  s_160b3107588443::t_c44227c761eb29 48-49
+  s_160b3107588443::t_1a1cb26608c493 50-51,68,73,105,112
+CHANGELOG.md
+  s_160b3107588443::t_c44227c761eb29 8-10
+  s_160b3107588443::t_1a1cb26608c493 7
+ecosystem/projects.json
+  s_160b3107588443::t_c44227c761eb29 14,333-348
+  s_9e80b85afcc43a::t_915c1393f62290 349
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "d2f7bc76a62d5a40fc1bf2530b4b93df91b18254",
+  "prompts": {},
+  "sessions": {
+    "s_160b3107588443": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a106f2-069b-7be2-aa09-88b1bbf2331e",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "Florian BRUNIAUX <florian@bruniaux.com>"
+    },
+    "s_9e80b85afcc43a": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0f3be-9233-7710-ac57-7b3f9fa5c15c",
+        "model": "gpt-6-luna"
+      },
+      "human_author": "Florian BRUNIAUX <florian@bruniaux.com>"
+    }
+  }
+}
