@@ -16,5 +16,7 @@
 
 ### Changed
 
+- Link Worktree Sweep to its public repository and documentation site; remove
+  its coming-soon status while retaining the read-only macOS MVP limits.
 - Project validation and map descriptions support a growing catalog instead of a fixed total of 16 projects.
 - Existing renderer checks now match the badge markup and four featured-project flags already present in the manifest.

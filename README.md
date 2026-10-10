@@ -49,9 +49,10 @@ Local Rust CLI that picks the model, effort and skills for each phase of a Claud
 Connect Claude, Codex, and other MCP clients to Google Search Console, Bing Webmaster Tools, GA4, CrUX, and public-page analysis through 81 structured tools.
 **[Open the bilingual product site](https://search-console.bruniaux.com/)** · [Documentation](https://search-console.bruniaux.com/docs/) · [GitHub](https://github.com/FlorianBruniaux/google-search-console-mcp) · [PyPI](https://pypi.org/project/gsc-mcp-tools/)
 
-### Worktree Sweep (private preview)
+### [Worktree Sweep](https://github.com/FlorianBruniaux/wt-sweep)
 
 Read-only Rust CLI for macOS to inventory Git worktrees, check commit relationships against selected refs, and inspect local files. A commit can be integrated while untracked or ignored files still need preservation. Backup, restore and removal are unavailable in this MVP.
+[wt-sweep.bruniaux.com](https://wt-sweep.bruniaux.com/) · Source-available (FSL-1.1-ALv2)
 
 ### [StarMapper](https://github.com/FlorianBruniaux/starmapper)
 Map any GitHub repository's stargazers on an interactive world map. Paste a repo URL, get a live geocoded map with clustering, country stats, and an embeddable badge. Next.js + MapLibre + Neon Postgres.
@@ -74,7 +75,7 @@ flowchart TB
   hub --> build_run["01 · Build & Run"]
   build_run --> build_run_projects["CC-Copilot Bridge<br/>Agent Router (soon)<br/>claude-code-plugins<br/>ctxharness<br/>flow-lean<br/>RTK"]
   hub --> observe_improve["02 · Observe & Improve"]
-  observe_improve --> observe_improve_projects["CCBoard<br/>CC-Sessions<br/>cc-skill-usage<br/>Worktree Sweep (soon)"]
+  observe_improve --> observe_improve_projects["CCBoard<br/>CC-Sessions<br/>cc-skill-usage<br/>Worktree Sweep"]
   hub --> secure_validate["03 · Secure & Validate"]
   secure_validate --> secure_validate_projects["agentsec-triage<br/>dep-scope"]
   hub --> learn_adopt["04 · Learn & Adopt"]
@@ -113,7 +114,7 @@ Inspect sessions, worktrees, and tool usage.
 | **[CCBoard](https://github.com/FlorianBruniaux/ccboard)** · [ccboard.bruniaux.com](https://ccboard.bruniaux.com/)<br><kbd>Observability</kbd> <kbd>Session Analytics</kbd> <kbd>Monitoring</kbd> | You need a complete visual overview of sessions, activity, and analytics. | TUI + Web |
 | **[CC-Sessions](https://github.com/FlorianBruniaux/cc-sessions)**<br><kbd>Session Search</kbd> <kbd>Local-first</kbd> <kbd>Knowledge Retrieval</kbd> | You need a fast zero-dependency CLI for finding prior decisions or commands. | CLI |
 | **[cc-skill-usage](https://github.com/FlorianBruniaux/cc-skill-usage)**<br><kbd>Skill Analytics</kbd> <kbd>Local-first</kbd> <kbd>Observability</kbd> | You need to distinguish real Skill tool calls from prose mentions. | CLI |
-| **[Worktree Sweep](https://github.com/FlorianBruniaux#worktree-sweep-private-preview)** · Soon<br><kbd>Git Worktrees</kbd> <kbd>Integration Evidence</kbd> <kbd>Read-only</kbd> | You need to inventory Git worktrees and inspect their commits and local files before planning cleanup. Read-only macOS MVP; backup, restore and removal are unavailable. Repository currently private. | Rust CLI |
+| **[Worktree Sweep](https://github.com/FlorianBruniaux/wt-sweep)** · [wt-sweep.bruniaux.com](https://wt-sweep.bruniaux.com/)<br><kbd>Git Worktrees</kbd> <kbd>Integration Evidence</kbd> <kbd>Read-only</kbd> | You need to inventory Git worktrees and inspect their commits and local files before planning cleanup. Read-only macOS MVP; backup, restore and removal are unavailable. | Rust CLI |
 
 ### Secure & Validate
 

@@ -251,7 +251,7 @@ test('landing command writes five routes and 19 projects from the manifest', () 
     assert.equal((rendered.match(/^    "id":/gm) ?? []).length, 24)
     assert.equal((rendered.match(/"featured": true/g) ?? []).length, 5)
     assert.match(rendered, /"href": "https:\/\/cc\.bruniaux\.com\/guide\/third-party-tools\/#agent-router"/)
-    assert.equal((rendered.match(/"status": "soon"/g) ?? []).length, 2)
+    assert.equal((rendered.match(/"status": "soon"/g) ?? []).length, 1)
   } finally {
     rmSync(directory, { recursive: true, force: true })
   }
