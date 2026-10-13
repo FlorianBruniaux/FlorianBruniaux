@@ -1,7 +1,11 @@
 # Florian Bruniaux
 
-**AI practitioner since 2017, context/harness engineering specialist.** 12 years in tech, ex-CTO/VP Engineering, chose to go back hands-on.
-AI Founding Engineer @ [Méthode Aristote](https://methode-aristote.fr/) (EdTech + AI)
+**Harness & context engineering for AI coding agents.**
+
+I design the context, tools and checks that help teams build and deliver software with AI agents.
+Currently AI Founding Engineer at [Méthode Aristote](https://methode-aristote.fr/) (EdTech + AI), building open-source tools for developers in my spare time.
+
+My AI background began in 2017 with NLP, machine learning and big data. Since 2025, I work daily with generative AI and coding agents. Former CTO and VP Engineering, now back to hands-on engineering.
 
 Direct, kind, energetic. Always 8 projects running.
 
@@ -22,6 +26,7 @@ If you land here from a guide page or an article, starring the repo is the best 
 
 ## Current Focus
 
+- Harness and context engineering: agent instructions, tools, permissions, tests and review workflows
 - AI Founding Engineer at [Méthode Aristote](https://methode-aristote.fr/) (TypeScript/Next.js, tRPC, Prisma, AI integration)
 - Building and maintaining the Claude Code open-source ecosystem (guide + RTK + 9 other tools)
 - Active member of [Dev with AI](https://devw.ai/), a French-speaking AI community of ~3,000 people today, aiming to become the reference AI community in France and, eventually, Europe
@@ -271,3 +276,4 @@ Turn source material into knowledge, visibility, or discovery.
 - 🌉 [ccbridge.bruniaux.com](https://ccbridge.bruniaux.com) - CC-Copilot Bridge
 - 🦀 [rtk-ai.app](https://www.rtk-ai.app) - RTK - Rust Token Killer
 - 🔗 [LinkedIn](https://www.linkedin.com/in/florian-bruniaux-43408b83/)
+
