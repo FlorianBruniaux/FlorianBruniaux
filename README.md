@@ -206,7 +206,7 @@ Turn source material into knowledge, visibility, or discovery.
 
 ## 📺 Talks & Appearances
 
-- Oct 12, 2026 🇫🇷 **Coder plus vite avec l’IA, livrer mieux en équipe : du code au merge** @ [Dev With AI](https://devw.ai/conference) *(talk in French)* · [Article & slides (FR)](https://www.florian.bruniaux.com/guides/du-code-au-merge/) · [Article & slides (EN)](https://www.florian.bruniaux.com/guides/from-code-to-merge/)
+- Oct 12, 2026 🇫🇷 **Coder plus vite avec l’IA, livrer mieux en équipe : du code au merge** @ [Dev With AI](https://devw.ai/conference) *(talk in French)* · [Article & slides (FR)](https://www.florian.bruniaux.com/guides/du-code-au-merge/) · [Article & slides (EN)](https://www.florian.bruniaux.com/guides/from-code-to-merge/) · [Full conference report (FR)](https://www.florian.bruniaux.com/reports/dev-with-ai-2026.html) · [Full conference report (EN)](https://www.florian.bruniaux.com/reports/dev-with-ai-2026-en.html)
 - Sep 2026 🇫🇷 [Coder 5x plus vite (#79)](https://shows.acast.com/tronche-de-tech/episodes/79-florian-bruniaux-coder-5x-plus-vite) @ Tronche de Tech, with Mathieu Sanchez *(podcast)* · [Watch on YouTube](https://www.youtube.com/watch?v=gHAceskwBFY)
 - 2026 🇬🇧 [Building the StarMapper MCP App](https://www.youtube.com/watch?v=KFOx4r6uRjA) @ [Alpic](https://alpic.ai/) - live coding with Frédéric Barthelet
 - 2026 🇫🇷 [Ce qui t'ouvre les portes des top startups](https://www.youtube.com/watch?v=X_kmhNzessw) @ GitHub with AI *(live)*
