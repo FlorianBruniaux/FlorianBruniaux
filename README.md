@@ -13,12 +13,29 @@ Direct, kind, energetic. Always 8 projects running.
 
 ## 📬 Blog & Guides
 
-I write about AI-assisted engineering and keep my guides updated, most weeks bring something new.
+I write about AI-assisted engineering: how agents get their context, how teams verify their work, and what the whole workflow costs.
 
-- **[Claude Code Ultimate Guide](https://cc.bruniaux.com)**: the main reference, continuously updated (v3.43.0, 473 quiz questions across 17 categories, 13 whitepapers at 566 pages, 57 recap cards, 166-entry threat database)
-- **[The Real Cost of AI](https://www.florian.bruniaux.com/blog/series/the-real-cost-of-ai/)**: new 9-part series on what AI coding actually costs, from per-token pricing and invisible ROI to measured productivity, FinOps and vendor dependence
-- **[AI FinOps](https://cc.bruniaux.com/finops/)** and **[Token-saving tools](https://cc.bruniaux.com/token-savings/)**: the guide's cost pages, with three cost regimes, dated market prices, and 45 token-saving tools set against eight public benchmarks
-- **[Blog](https://www.florian.bruniaux.com/blog/)**: articles on context engineering, AI-assisted workflows, and real production data (git stats, DORA metrics, honest retrospectives)
+[All articles](https://www.florian.bruniaux.com/blog/) · [All practical guides](https://www.florian.bruniaux.com/guides/)
+
+### Published series
+
+25 articles and guides across four series. Each series page gives the full reading order.
+
+| Series | Parts | Focus |
+|---|---:|---|
+| **[Engineering the Review Loop](https://www.florian.bruniaux.com/blog/series/engineering-the-review-loop/)** | 8 | Local checks, independent review, bounded corrections and merge evidence. |
+| **[The Real Cost of AI](https://www.florian.bruniaux.com/blog/series/the-real-cost-of-ai/)** | 9 | Task costs, ROI claims, productivity evidence, FinOps and provider dependence. |
+| **[Context Engineering](https://www.florian.bruniaux.com/blog/series/context-engineering/)** | 6 | Context drift, instruction systems, tool choices and portability. |
+| **[Designing Agent Output](https://www.florian.bruniaux.com/blog/series/designing-agent-output/)** | 2 | Flow Lean skills, output styles and checks for their actual behavior. |
+
+### Guides & reports
+
+- **[Claude Code Ultimate Guide](https://cc.bruniaux.com/)**: a continuously maintained reference for AI-assisted development. Companion pages cover **[AI FinOps](https://cc.bruniaux.com/finops/)** and **[token-saving tools](https://cc.bruniaux.com/token-savings/)**.
+- **[Claude Cowork Guide](https://cowork.bruniaux.com/)**: AI workflows for knowledge workers and non-technical users.
+- **[Context engineering: the L0-to-L5 playbook](https://www.florian.bruniaux.com/guides/context-engineering-l0-to-l5/)**: choose context controls according to the failure you observe.
+- **One source configures Claude Code and Codex**: shared instructions, immutable releases and skill routing. [English](https://www.florian.bruniaux.com/guides/claude-code-codex-config/) · [Français](https://www.florian.bruniaux.com/guides/claude-code-codex-config-fr/).
+- **From code to merge**: my Dev With AI talk, with slides, examples and section recaps. [English](https://www.florian.bruniaux.com/guides/from-code-to-merge/) · [Français](https://www.florian.bruniaux.com/guides/du-code-au-merge/).
+- **Dev With AI 2026**: conference synthesis and an illustrated report with a TL;DR for each talk. [English guide](https://www.florian.bruniaux.com/guides/dev-with-ai-2026-en/) · [Guide français](https://www.florian.bruniaux.com/guides/dev-with-ai-2026/) · [Full report EN](https://www.florian.bruniaux.com/reports/dev-with-ai-2026-en.html) · [Dossier complet FR](https://www.florian.bruniaux.com/reports/dev-with-ai-2026.html).
 
 If you land here from a guide page or an article, starring the repo is the best way to see when something new ships.
 
@@ -203,26 +220,64 @@ Turn source material into knowledge, visibility, or discovery.
 
 ## ✍️ Writing
 
-**The Real Cost of AI** (9-part series, Sep 2026)
+Open a series to see every published part, in reading order.
+
+<details>
+<summary><strong>Engineering the Review Loop</strong> · 8 parts</summary>
+
+[Series overview](https://www.florian.bruniaux.com/blog/series/engineering-the-review-loop/)
+
+- 1/8 · [Coding faster moves the cost to verification](https://www.florian.bruniaux.com/blog/articles/bottleneck-was-never-code/)
+- 2/8 · [When an independent reviewer earns its place](https://www.florian.bruniaux.com/blog/articles/reviewer-you-ignore/)
+- 3/8 · [Designing a bounded review loop](https://www.florian.bruniaux.com/guides/bounded-code-review-loop/)
+- 4/8 · [A green review is not a merge gate](https://www.florian.bruniaux.com/blog/articles/your-gate-is-decorative/)
+- 5/8 · [Turn recurring review comments into tested controls](https://www.florian.bruniaux.com/blog/articles/recurring-review-comments-controls/)
+- 6/8 · [Operating a multi-reviewer system safely](https://www.florian.bruniaux.com/guides/multi-reviewer-code-review-system/)
+- 7/8 · [5 AI code reviewers, 1 repository, and what developers did next](https://www.florian.bruniaux.com/blog/articles/ai-code-reviewers-one-repository/)
+- 8/8 · [Testing Opus 5.5 as the code-review baseline](https://www.florian.bruniaux.com/blog/articles/opus-5-5-code-review-baseline/)
+
+</details>
+
+<details>
+<summary><strong>The Real Cost of AI</strong> · 9 parts</summary>
+
+[Series overview](https://www.florian.bruniaux.com/blog/series/the-real-cost-of-ai/)
 
 - 1/9 · [A $214 AI coding agent rewrite](https://www.florian.bruniaux.com/blog/articles/real-cost-of-ai-agent-pricing/)
 - 2/9 · [Why AI ROI stays invisible, even to the people measuring it](https://www.florian.bruniaux.com/blog/articles/real-cost-of-ai-roi-invisible/)
-- 3/9 · [AI coding productivity at scale: 15-20% measured, 20x in one team](https://www.florian.bruniaux.com/blog/articles/real-cost-of-ai-productivity-reality/)
+- 3/9 · [AI coding productivity: why one gain is not your forecast](https://www.florian.bruniaux.com/blog/articles/real-cost-of-ai-productivity-reality/)
 - 4/9 · [FinOps applied to tokens: who owns the AI bill](https://www.florian.bruniaux.com/blog/articles/real-cost-of-ai-finops/)
-- 5/9 · [The price-per-token lie: why cheaper models don't mean cheaper bills](https://www.florian.bruniaux.com/blog/articles/real-cost-of-ai-price-per-token-lie/)
+- 5/9 · [Price per token is incomplete: why cheaper models don't mean cheaper bills](https://www.florian.bruniaux.com/blog/articles/real-cost-of-ai-price-per-token-lie/)
 - 6/9 · [You cannot depend on a single AI vendor](https://www.florian.bruniaux.com/blog/articles/real-cost-of-ai-vendor-dependence/)
 - 7/9 · [Doctolib's cross-verified AI adoption data](https://www.florian.bruniaux.com/blog/articles/real-cost-of-ai-doctolib-case-study/)
 - 8/9 · [The trillion-dollar backdrop: what markets see that teams don't](https://www.florian.bruniaux.com/blog/articles/real-cost-of-ai-market-backdrop/)
 - 9/9 · [Measuring your own AI usage: three meters, three different answers](https://www.florian.bruniaux.com/blog/articles/real-cost-of-ai-measuring-your-own-usage/)
 
-**Context Engineering** (6-part series)
+</details>
 
-- 1/6 · [The Same Model, Opposite Results: Context Is the Variable](https://www.florian.bruniaux.com/blog/articles/context-engineering-the-hidden-variable/)
-- 2/6 · [The CLAUDE.md That Doesn't Lie After Three Months](https://www.florian.bruniaux.com/blog/articles/context-engineering-maturity-model/)
-- 3/6 · [Four Layers, Not a Ranking: Mapping the Token-Reduction Toolbox](https://www.florian.bruniaux.com/blog/articles/context-engineering-tools-map/)
-- 4/6 · [Context Engineering Became a Job Title. So Did Four Others](https://www.florian.bruniaux.com/blog/articles/context-engineering-the-new-roles/)
-- 5/6 · [The AI Instruction System Is a Product, Not a Config File](https://www.florian.bruniaux.com/blog/articles/context-engineering-team-system/)
-- 6/6 · [Don't Build Your Moat on One Vendor's Runtime](https://www.florian.bruniaux.com/blog/articles/context-engineering-portability/)
+<details>
+<summary><strong>Context Engineering</strong> · 6 parts</summary>
+
+[Series overview](https://www.florian.bruniaux.com/blog/series/context-engineering/)
+
+- 1/6 · [Opposite AI results: what context can explain](https://www.florian.bruniaux.com/blog/articles/context-engineering-the-hidden-variable/)
+- 2/6 · [Diagnose and repair context drift](https://www.florian.bruniaux.com/blog/articles/context-engineering-maturity-model/)
+- 3/6 · [Mapping the token-reduction toolbox](https://www.florian.bruniaux.com/blog/articles/context-engineering-tools-map/)
+- 4/6 · [The responsibilities around context engineering](https://www.florian.bruniaux.com/blog/articles/context-engineering-the-new-roles/)
+- 5/6 · [The AI instruction system is a product, not a config file](https://www.florian.bruniaux.com/blog/articles/context-engineering-team-system/)
+- 6/6 · [Portability becomes a Scale concern](https://www.florian.bruniaux.com/blog/articles/context-engineering-portability/)
+
+</details>
+
+<details>
+<summary><strong>Designing Agent Output</strong> · 2 parts</summary>
+
+[Series overview](https://www.florian.bruniaux.com/blog/series/designing-agent-output/)
+
+- 1/2 · [Why I combined three Claude Code skills](https://www.florian.bruniaux.com/blog/articles/flow-lean-fused-three-skills/)
+- 2/2 · [Claude selected my output style. Then ignored it](https://www.florian.bruniaux.com/blog/articles/claude-code-output-styles/)
+
+</details>
 
 **Standalone**
 
