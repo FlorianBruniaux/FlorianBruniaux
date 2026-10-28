@@ -206,16 +206,24 @@ Turn source material into knowledge, visibility, or discovery.
 
 ## 📺 Talks & Appearances
 
+- 🔜 Nov 5, 2026 🇫🇷 [IA : vos développeurs consomment plus de tokens, pour plus de valeur créée ?](https://www.linkedin.com/posts/un-d%C3%A9veloppeur-peut-%C3%AAtre-tr%C3%A8s-tokenvore-ugcPost-7519018697538072576-95ak/) @ [Insitoo Group](https://www.linkedin.com/company/insitoo/), with Thomas Pierrain and Vanessa Gossent *(live webinar)*
+- 🔜 Nov 17, 2026 🇫🇷 [Je n’ai pas confiance dans mes pull-requests générées](https://genai-days-nantes.com/programme/harness-context-engineering) @ [GenAI Days Nantes](https://genai-days-nantes.com/) *(talk)*
+- 🔜 🇬🇧 [The CTO Playbook](https://www.thectoplaybook.com/podcast), with Adam Horner *(podcast, release date to be announced)*
+- 🔜 🇫🇷 [IFTTD - If This Then Dev](https://www.ifttd.io/), with Bruno Soulez *(podcast)*
+- 🔜 🇫🇷 Upcoming appearance with Xavier Pestel (Xavki), details to be announced
+- Oct 16, 2026 🇫🇷 [Coder plus vite avec l’IA, livrer mieux en équipe : du code au merge](https://www.youtube.com/watch?v=u2q0N5JZd8A) @ [AI-Driven Dev](https://www.ai-driven-dev.fr/) *(live)*
 - Oct 12, 2026 🇫🇷 **Coder plus vite avec l’IA, livrer mieux en équipe : du code au merge** @ [Dev With AI](https://devw.ai/conference) *(talk in French)* · [Article & slides (FR)](https://www.florian.bruniaux.com/guides/du-code-au-merge/) · [Article & slides (EN)](https://www.florian.bruniaux.com/guides/from-code-to-merge/) · [Full conference report (FR)](https://www.florian.bruniaux.com/reports/dev-with-ai-2026.html) · [Full conference report (EN)](https://www.florian.bruniaux.com/reports/dev-with-ai-2026-en.html)
+- Oct 8, 2026 🇫🇷 [Where Cloud Native & AI Intersect - The 2026 Stack](https://kubeauto.day/paris) @ KubeAuto Day Paris, with Xavier Pestel (Xavki) *(panel)* · [LinkedIn recap](https://lnkd.in/p/eET6MPBT)
 - Sep 2026 🇫🇷 [Coder 5x plus vite (#79)](https://shows.acast.com/tronche-de-tech/episodes/79-florian-bruniaux-coder-5x-plus-vite) @ Tronche de Tech, with Mathieu Sanchez *(podcast)* · [Watch on YouTube](https://www.youtube.com/watch?v=gHAceskwBFY)
-- 2026 🇬🇧 [Building the StarMapper MCP App](https://www.youtube.com/watch?v=KFOx4r6uRjA) @ [Alpic](https://alpic.ai/) - live coding with Frédéric Barthelet
-- 2026 🇫🇷 [Ce qui t'ouvre les portes des top startups](https://www.youtube.com/watch?v=X_kmhNzessw) @ GitHub with AI *(live)*
-- 2026 🇫🇷 [Tokens : le nouveau cloud waste](https://techready.live/talks/talk-tokens-cloud-waste/) @ [Tech Ready Nantes](https://techready.live/) *(talk)*
-- 2026 🇫🇷 [Adoption des agents de code : bonnes pratiques IA](https://techready.live/talks/table-ronde-2/) @ [Tech Ready Nantes](https://techready.live/) *(roundtable)*
-- 2026 🇫🇷 [Context Rot : optimiser son context engineering](https://www.youtube.com/watch?v=D_XI-NYcSxI) @ [NextLevelRun](https://next-level.run/) *(live)*
-- 2026 🇫🇷 [Une équipe produit qui shippe avec l'IA with Terry Michel](https://justaclick.fr/podcast/une-equipe-produit-qui-shippe-avec-lia-ce-que-ca-veut-dire-vraiment-florian-bruniaux/) @ [Just a Click](https://justaclick.fr/podcast/) *(podcast)*
-- 2026 🇫🇷 [De CTO avec 30 devs à Solo Engineer boosté à l'IA, GitHub Roast](https://www.youtube.com/watch?v=MDgU0LrGHM0) @ [The Product Crew](https://tpc-recrutement.com/) *(live, source of the [github-roast-tpc](https://github.com/FlorianBruniaux/github-roast-tpc) plugin)*
-- 2026 🇫🇷 [7 mois, 1200 commits, 600 PRs, 50 releases](https://www.youtube.com/watch?v=nfupYzLjFGc) @ [Dev with AI](https://devw.ai/) *(live)*
+- Jul 7, 2026 🇫🇷 [Tokens : le nouveau Cloud Waste](https://www.meetup.com/generative-ai-paris/events/315380148/) @ Generative AI Paris, hosted by [WeScale](https://www.wescale.fr/) *(meetup talk)*
+- Jun 2026 🇬🇧 [Building the StarMapper MCP App](https://www.youtube.com/watch?v=KFOx4r6uRjA) @ [Alpic](https://alpic.ai/) - live coding with Frédéric Barthelet
+- Jun 2026 🇫🇷 [Ce qui t'ouvre les portes des top startups](https://www.youtube.com/watch?v=X_kmhNzessw) @ GitHub with AI *(live)*
+- Jun 2026 🇫🇷 [Tokens : le nouveau cloud waste](https://techready.live/talks/talk-tokens-cloud-waste/) @ [Tech Ready Nantes](https://techready.live/) *(talk)*
+- Jun 2026 🇫🇷 [Adoption des agents de code : bonnes pratiques IA](https://techready.live/talks/table-ronde-2/) @ [Tech Ready Nantes](https://techready.live/) *(roundtable)*
+- May 2026 🇫🇷 [Context Rot : optimiser son context engineering](https://www.youtube.com/watch?v=D_XI-NYcSxI) @ [NextLevelRun](https://next-level.run/) *(live)*
+- Apr 2026 🇫🇷 [Une équipe produit qui shippe avec l'IA with Terry Michel](https://justaclick.fr/podcast/une-equipe-produit-qui-shippe-avec-lia-ce-que-ca-veut-dire-vraiment-florian-bruniaux/) @ [Just a Click](https://justaclick.fr/podcast/) *(podcast)*
+- Mar 2026 🇫🇷 [De CTO avec 30 devs à Solo Engineer boosté à l'IA, GitHub Roast](https://www.youtube.com/watch?v=MDgU0LrGHM0) @ [The Product Crew](https://tpc-recrutement.com/) *(live, source of the [github-roast-tpc](https://github.com/FlorianBruniaux/github-roast-tpc) plugin)*
+- Feb 2026 🇫🇷 [7 mois, 1200 commits, 600 PRs, 50 releases](https://www.youtube.com/watch?v=nfupYzLjFGc) @ [Dev with AI](https://devw.ai/) *(live)*
 
 ---
 

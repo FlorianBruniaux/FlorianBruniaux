@@ -16,6 +16,7 @@
 
 ### Changed
 
+- Talks & Appearances synced with the portfolio media page on 2026-10-28: five upcoming appearances, three past ones (AI-Driven Dev, KubeAuto Day Paris, Generative AI Paris) and month-level dates taken from the portfolio data.
 - Link Worktree Sweep to its public repository and documentation site; remove
   its coming-soon status while retaining the read-only macOS MVP limits.
 - Project validation and map descriptions support a growing catalog instead of a fixed total of 16 projects.
