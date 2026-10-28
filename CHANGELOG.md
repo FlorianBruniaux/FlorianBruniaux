@@ -16,6 +16,9 @@
 
 ### Changed
 
+- Link Agent Router to its public repository, made public on 2026-10-28;
+  remove its coming-soon status while keeping the experimental, no-measured-gain
+  and FSL-1.1-ALv2 source-available notes.
 - Talks & Appearances synced with the portfolio media page on 2026-10-28: five upcoming appearances, three past ones (AI-Driven Dev, KubeAuto Day Paris, Generative AI Paris) and month-level dates taken from the portfolio data.
 - Link Worktree Sweep to its public repository and documentation site; remove
   its coming-soon status while retaining the read-only macOS MVP limits.
