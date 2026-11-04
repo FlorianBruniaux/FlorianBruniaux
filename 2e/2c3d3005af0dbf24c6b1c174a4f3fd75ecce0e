@@ -1,0 +1,23 @@
+README.md
+  s_b8856734d9cecd::t_6b1179ba8aee59 95,98,125
+ecosystem/projects.json
+  s_b8856734d9cecd::t_1d58f5f08a352e 105-125
+tests/ecosystem.test.mjs
+  s_b8856734d9cecd::t_a3016ef9df37a2 19,23,144,235,251
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "2e2c3d3005af0dbf24c6b1c174a4f3fd75ecce0e",
+  "prompts": {},
+  "sessions": {
+    "s_b8856734d9cecd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "6fadf8cc-5bdc-4e98-8b22-621922e0cbd4",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Florian BRUNIAUX <florian@bruniaux.com>"
+    }
+  }
+}
