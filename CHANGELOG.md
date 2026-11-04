@@ -4,6 +4,9 @@
 
 ### Added
 
+- Agent Router core in the build route of the profile catalog and the
+  20-project Mermaid map: the public Rust source snapshot published on
+  2026-10-22, marked as not synchronized with the Agent Router repository.
 - Worktree Sweep in `What I Build`, the Observe & Improve catalog and
   the 19-project Mermaid map. The coming-soon entry links to its public profile
   preview while the repository remains private, and states the read-only MVP's
