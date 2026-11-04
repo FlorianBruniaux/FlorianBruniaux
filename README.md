@@ -17,6 +17,16 @@ I write about AI-assisted engineering: how agents get their context, how teams v
 
 [All articles](https://www.florian.bruniaux.com/blog/) · [All practical guides](https://www.florian.bruniaux.com/guides/)
 
+### Recent articles
+
+| Published | Article |
+|---|---|
+| Oct 14, 2026 | [5 AI code reviewers, 1 repository, and what developers did next](https://www.florian.bruniaux.com/blog/articles/ai-code-reviewers-one-repository/) |
+| Oct 14, 2026 | [Turn recurring review comments into tested controls](https://www.florian.bruniaux.com/blog/articles/recurring-review-comments-controls/) |
+| Oct 14, 2026 | [A green review is not a merge gate](https://www.florian.bruniaux.com/blog/articles/your-gate-is-decorative/) |
+| Oct 3, 2026 | [Lean and AI: follow the work until it reaches the user](https://www.florian.bruniaux.com/blog/articles/lean-ai-work-that-reaches-users/) |
+| Sep 30, 2026 | [How to read a token-compression benchmark](https://www.florian.bruniaux.com/blog/articles/reading-token-compression-benchmarks/) |
+
 ### Published series
 
 25 articles and guides across four series. Each series page gives the full reading order.
@@ -32,6 +42,8 @@ I write about AI-assisted engineering: how agents get their context, how teams v
 
 - **[Claude Code Ultimate Guide](https://cc.bruniaux.com/)**: a continuously maintained reference for AI-assisted development. Companion pages cover **[AI FinOps](https://cc.bruniaux.com/finops/)** and **[token-saving tools](https://cc.bruniaux.com/token-savings/)**.
 - **[Claude Cowork Guide](https://cowork.bruniaux.com/)**: AI workflows for knowledge workers and non-technical users.
+- **[Claude Code security: the attack surface few teams audit](https://www.florian.bruniaux.com/guides/claude-code-attack-surface/)**: review hooks, connected tools and the permissions they receive.
+- **[Moving the memory observer to a local model](https://www.florian.bruniaux.com/guides/local-memory-observer/)**: a measured claude-mem case study covering request constraints, timeouts and output quality.
 - **[Context engineering: the L0-to-L5 playbook](https://www.florian.bruniaux.com/guides/context-engineering-l0-to-l5/)**: choose context controls according to the failure you observe.
 - **One source configures Claude Code and Codex**: shared instructions, immutable releases and skill routing. [English](https://www.florian.bruniaux.com/guides/claude-code-codex-config/) · [Français](https://www.florian.bruniaux.com/guides/claude-code-codex-config-fr/).
 - **From code to merge**: my Dev With AI talk, with slides, examples and section recaps. [English](https://www.florian.bruniaux.com/guides/from-code-to-merge/) · [Français](https://www.florian.bruniaux.com/guides/du-code-au-merge/).
@@ -206,11 +218,19 @@ Turn source material into knowledge, visibility, or discovery.
 
 ## 📺 Talks & Appearances
 
+### Upcoming
+
 - 🔜 Nov 5, 2026 🇫🇷 [IA : vos développeurs consomment plus de tokens, pour plus de valeur créée ?](https://www.linkedin.com/posts/un-d%C3%A9veloppeur-peut-%C3%AAtre-tr%C3%A8s-tokenvore-ugcPost-7519018697538072576-95ak/) @ [Insitoo Group](https://www.linkedin.com/company/insitoo/), with Thomas Pierrain and Vanessa Gossent *(live webinar)*
 - 🔜 Nov 17, 2026 🇫🇷 [Je n’ai pas confiance dans mes pull-requests générées](https://genai-days-nantes.com/programme/harness-context-engineering) @ [GenAI Days Nantes](https://genai-days-nantes.com/) *(talk)*
+- 🔜 Dec 15, 2026 🇫🇷 **Un agent IA va être jugé** @ Power Night, Courbevoie, 18:30 Paris time *(roundtable, participating as Lead AI)* · [Appearance details](https://www.florian.bruniaux.com/media/)
 - 🔜 🇬🇧 [The CTO Playbook](https://www.thectoplaybook.com/podcast), with Adam Horner *(podcast, release date to be announced)*
-- 🔜 🇫🇷 [IFTTD - If This Then Dev](https://www.ifttd.io/), with Bruno Soulez *(podcast)*
+- 🔜 🇫🇷 [Message à caractère informatique](https://www.clever.cloud/fr/podcast/) @ Clever Cloud *(podcast, release date to be announced)*
 - 🔜 🇫🇷 Upcoming appearance with Xavier Pestel (Xavki), details to be announced
+
+### Replays & past appearances
+
+- Nov 4, 2026 🇫🇷 [Contexte Engineering : Dresser ses agents IA (#383)](https://www.ifttd.io/episodes/contexte-engineering) @ IFTTD, with Bruno Soulez *(podcast)* · [Watch on YouTube](https://www.youtube.com/watch?v=Le5K1WheyBE)
+- Oct 30, 2026 🇫🇷 [DevSecOps compilé: debrief with Bruno Soulez](https://www.ifttd.io/episodes/devsecops-exe) @ IFTTD *(podcast, debriefing Tugdual Grall’s original episode)*
 - Oct 16, 2026 🇫🇷 [Coder plus vite avec l’IA, livrer mieux en équipe : du code au merge](https://www.youtube.com/watch?v=u2q0N5JZd8A) @ [AI-Driven Dev](https://www.ai-driven-dev.fr/) *(live)*
 - Oct 12, 2026 🇫🇷 **Coder plus vite avec l’IA, livrer mieux en équipe : du code au merge** @ [Dev With AI](https://devw.ai/conference) *(talk in French)* · [Article & slides (FR)](https://www.florian.bruniaux.com/guides/du-code-au-merge/) · [Article & slides (EN)](https://www.florian.bruniaux.com/guides/from-code-to-merge/) · [Full conference report (FR)](https://www.florian.bruniaux.com/reports/dev-with-ai-2026.html) · [Full conference report (EN)](https://www.florian.bruniaux.com/reports/dev-with-ai-2026-en.html)
 - Oct 8, 2026 🇫🇷 [Where Cloud Native & AI Intersect - The 2026 Stack](https://kubeauto.day/paris) @ KubeAuto Day Paris, with Xavier Pestel (Xavki) *(panel)* · [LinkedIn recap](https://lnkd.in/p/eET6MPBT)
@@ -290,6 +310,8 @@ Open a series to see every published part, in reading order.
 
 **Standalone**
 
+- Oct 2026 · [Lean and AI: follow the work until it reaches the user](https://www.florian.bruniaux.com/blog/articles/lean-ai-work-that-reaches-users/)
+- Sep 2026 · [How to read a token-compression benchmark](https://www.florian.bruniaux.com/blog/articles/reading-token-compression-benchmarks/)
 - Jun 2026 · [Claude Is My Second Contributor: What Real Git Stats Show](https://www.florian.bruniaux.com/blog/articles/claude-is-my-second-contributor/)
 - May 2026 · [Claude Code Under the Hood](https://www.florian.bruniaux.com/blog/articles/claude-code-under-the-hood/)
 - Apr 2026 · [Where to Start with Claude Code](https://www.florian.bruniaux.com/blog/articles/where-to-start-with-claude-code/)
