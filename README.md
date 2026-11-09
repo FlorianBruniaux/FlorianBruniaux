@@ -1,13 +1,15 @@
 # Florian Bruniaux
 
-**Harness & context engineering for AI coding agents.**
+[![Hands-on Fractional Chief AI Officer. From AI strategy to code. Harness and context engineering.](./assets/github-profile-banner.png)](https://www.florian.bruniaux.com/)
 
-I design the context, tools and checks that help teams build and deliver software with AI agents.
-Currently AI Founding Engineer at [Méthode Aristote](https://methode-aristote.fr/) (EdTech + AI), building open-source tools for developers in my spare time.
+I’m a hands-on Fractional Chief AI Officer and former CTO, CTPO and VP Engineering. I help leaders choose where to invest in AI, then work directly with engineering and product teams in their repositories.
 
-My AI background began in 2017 with NLP, machine learning and big data. Since 2025, I work daily with generative AI and coding agents. Former CTO and VP Engineering, now back to hands-on engineering.
+I specialise in harness and context engineering. I build the shared instructions, tools, permissions and checks that teams use to develop and review software with Claude Code and Codex.
 
-Direct, kind, energetic. Always 8 projects running.
+- [Claude Code Ultimate Guide](https://github.com/FlorianBruniaux/claude-code-ultimate-guide). I wrote it and still maintain it. It includes workflows, templates and exercises teams can use in their own codebases.
+- [RTK](https://github.com/rtk-ai/rtk). I was its first contributor, wrote most of its early code and later focused on promoting the project. RTK trims command output so coding agents spend fewer tokens on routine tasks.
+
+[Portfolio](https://www.florian.bruniaux.com/) · [Work with me](https://www.florian.bruniaux.com/services/)
 
 ---
 
@@ -55,13 +57,10 @@ If you land here from a guide page or an article, starring the repo is the best 
 
 ## Current Focus
 
-- Harness and context engineering: agent instructions, tools, permissions, tests and review workflows
-- AI Founding Engineer at [Méthode Aristote](https://methode-aristote.fr/) (TypeScript/Next.js, tRPC, Prisma, AI integration)
-- Building and maintaining the Claude Code open-source ecosystem (guide + RTK + 9 other tools)
-- Active member of [Dev with AI](https://devw.ai/), a French-speaking AI community of ~3,000 people today, aiming to become the reference AI community in France and, eventually, Europe
-- Workshops on AI-assisted development for dev teams
-- Occasional speaker at conferences, live streams, talks, BBLs and podcasts ([media](https://www.florian.bruniaux.com/media/))
-- AI enthusiast building in public: 6,700+ stars across my own AI tooling projects, plus core team on RTK (82,000+ stars)
+- **Fractional AI leadership.** I work with leadership and product teams on AI priorities, investment decisions and adoption.
+- **Harness and context engineering.** I build shared instructions, tools, permissions, tests and review workflows for coding agents.
+- **Open source.** I maintain the [Claude Code Ultimate Guide](https://github.com/FlorianBruniaux/claude-code-ultimate-guide) and build tools such as [ctxharness](https://github.com/FlorianBruniaux/ctxharness).
+- **Training and speaking.** I run hands-on workshops for teams, contribute to the [Dev with AI](https://devw.ai/) community and share what I learn in [talks and interviews](https://www.florian.bruniaux.com/media/).
 
 ---
 
@@ -73,7 +72,7 @@ Comprehensive resource for AI-assisted development with Claude Code. Documentati
 
 ### [RTK - Rust Token Killer](https://github.com/rtk-ai/rtk)
 CLI proxy that compresses the output of common dev commands (Git, GitHub CLI, Cargo, pnpm, Vitest, Playwright, Docker, Kubernetes) before it reaches the agent. The project reports 60-90% fewer tokens on that output; whole-task studies are collected on [cc.bruniaux.com/token-savings](https://cc.bruniaux.com/token-savings/).
-**82,000+ stars** · Core team member & evangelist · [rtk-ai.app](https://www.rtk-ai.app)
+**82,000+ stars** · First contributor and main contributor in Q1 2026, then evangelist · [rtk-ai.app](https://www.rtk-ai.app)
 
 ### [Agent Router](https://github.com/FlorianBruniaux/agent-router)
 Local Rust CLI that picks the model, effort and skills for each phase of a Claude Code or Codex task (plan, execute, verify) and explains why. Limits are checked before scoring, decisions replay to the same receipt, and nothing runs without an approved digest. Experimental: offline routing works; no measured cost gain is claimed yet.
@@ -327,6 +326,8 @@ Open a series to see every published part, in reading order.
 ---
 
 ## Background
+
+As Founding AI Engineer at [Méthode Aristote](https://methode-aristote.fr/) from July 2025 to October 2026, I built the initial EdTech codebase from scratch, developed the team’s AI harness and trained product builders to contribute to production. I shared the review workflow in [From code to merge](https://www.florian.bruniaux.com/guides/from-code-to-merge/). Our collaboration continued on a freelance basis after the salaried role ended.
 
 **AI since 2017:** NLP and predictive ML in production at Q°emotion and eXplain (semantic search, sentiment scoring, ~30M articles processed). Generative and agentic AI daily since 2025.
 
