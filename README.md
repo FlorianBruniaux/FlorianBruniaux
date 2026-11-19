@@ -59,7 +59,7 @@ If you land here from a guide page or an article, starring the repo is the best 
 
 - **Fractional AI leadership.** I work with leadership and product teams on AI priorities, investment decisions and adoption.
 - **Harness and context engineering.** I build shared instructions, tools, permissions, tests and review workflows for coding agents.
-- **Open source.** I maintain the [Claude Code Ultimate Guide](https://github.com/FlorianBruniaux/claude-code-ultimate-guide) and build tools such as [ctxharness](https://github.com/FlorianBruniaux/ctxharness).
+- **Open source.** I maintain the [Claude Code Ultimate Guide](https://github.com/FlorianBruniaux/claude-code-ultimate-guide) and build tools such as [ctxharness](https://ctxharness.bruniaux.com/).
 - **Training and speaking.** I run hands-on workshops for teams, contribute to the [Dev with AI](https://devw.ai/) community and share what I learn in [talks and interviews](https://www.florian.bruniaux.com/media/).
 
 ---
@@ -135,7 +135,7 @@ Build, connect, and operate agentic workflows.
 | **[Agent Router](https://github.com/FlorianBruniaux/agent-router)**<br><kbd>Model Routing</kbd> <kbd>Cost Control</kbd> <kbd>Agent Workflows</kbd> | Planning, execution and verification should run on different models within a budget, with a decision you can review and replay. Experimental; no measured cost gain is claimed yet. | CLI |
 | **[Agent Router core](https://github.com/FlorianBruniaux/agent-router-core)**<br><kbd>Model Routing</kbd> <kbd>Supply Chain</kbd> <kbd>Rust</kbd> | You want to build the provider-neutral Rust routing CLI from a fixed snapshot with its distribution inventory, SBOM and licence records. Published on 2026-10-22 and not synchronized with the Agent Router repository. | Rust source |
 | **[claude-code-plugins](https://github.com/FlorianBruniaux/claude-code-plugins)**<br><kbd>Agent Extensions</kbd> <kbd>Workflow Automation</kbd> <kbd>Harness</kbd> | You want packaged skills, hooks, agents, and workflows instead of copying files manually. | Plugin collection |
-| **[ctxharness](https://github.com/FlorianBruniaux/ctxharness)**<br><kbd>Context Engineering</kbd> <kbd>Harness</kbd> <kbd>Validation</kbd> | You need evidence that CLAUDE.md, AGENTS.md, and related context still match the repository. | CLI |
+| **[ctxharness](https://ctxharness.bruniaux.com/)** · [GitHub](https://github.com/FlorianBruniaux/ctxharness)<br><kbd>Context Engineering</kbd> <kbd>Harness</kbd> <kbd>Validation</kbd> | You need evidence that CLAUDE.md, AGENTS.md, and related context still match the repository. | CLI |
 | **[flow-lean](https://github.com/FlorianBruniaux/flow-lean)**<br><kbd>Context Engineering</kbd> <kbd>Prompting</kbd> <kbd>Token Efficiency</kbd> | You want shorter action-first responses without stacking several overlapping skills. | Claude Code skill |
 | **[RTK](https://github.com/rtk-ai/rtk)** · [rtk-ai.app](https://www.rtk-ai.app/)<br><kbd>Context Engineering</kbd> <kbd>Token Efficiency</kbd> <kbd>Output Control</kbd> | Verbose Git, test, build, or infrastructure output consumes too much context. | CLI proxy |
 

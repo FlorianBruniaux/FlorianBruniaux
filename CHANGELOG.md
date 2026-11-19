@@ -19,6 +19,7 @@
 
 ### Changed
 
+- Link CTX Harness to its verified product site on the profile (2026-11-19), with GitHub retained as a secondary link. Keep the website preference in the canonical manifest so regeneration preserves it.
 - Link Agent Router to its public repository, made public on 2026-10-28;
   remove its coming-soon status while keeping the experimental, no-measured-gain
   and FSL-1.1-ALv2 source-available notes.

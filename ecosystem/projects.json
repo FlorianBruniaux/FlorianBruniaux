@@ -169,7 +169,8 @@
       "tags": ["Context Engineering", "Harness", "Validation"],
       "icon": "🧭",
       "github": "https://github.com/FlorianBruniaux/ctxharness",
-      "website": null,
+      "website": "https://ctxharness.bruniaux.com/",
+      "profile_link": "website",
       "landing_featured": false,
       "managed_readme": true,
       "relations": [

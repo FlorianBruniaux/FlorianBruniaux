@@ -51,6 +51,12 @@ export function validateManifest(manifest) {
     if (project.managed_readme && !project.github) {
       throw new Error(`${project.id} needs a GitHub URL when its README is managed`)
     }
+    if (project.profile_link !== undefined && !['repository', 'website'].includes(project.profile_link)) {
+      throw new Error(`${project.id} has an unknown profile link policy`)
+    }
+    if (project.profile_link === 'website' && (typeof project.website !== 'string' || !project.website.startsWith('https://'))) {
+      throw new Error(`${project.id} needs an HTTPS website for its profile link`)
+    }
     if (project.status !== undefined && project.status !== 'soon') {
       throw new Error(`${project.id} has unknown status ${project.status}`)
     }
@@ -169,9 +175,10 @@ export function renderProfile(manifest) {
     const rows = manifest.projects
       .filter((project) => project.route === route.id)
       .map((project) => {
-        const website = project.website ? ` · [${websiteLabel(project.website)}](${project.website})` : ''
+        const websitePrimary = !isSoon(project) && project.profile_link === 'website'
+        const website = websitePrimary ? ` · [GitHub](${project.github})` : project.website ? ` · [${websiteLabel(project.website)}](${project.website})` : ''
         const soon = isSoon(project) ? ' · Soon' : ''
-        const link = isSoon(project) ? project.preview_url : project.github
+        const link = isSoon(project) ? project.preview_url : websitePrimary ? project.website : project.github
         const tags = project.tags.map((tag) => `<kbd>${tag}</kbd>`).join(' ')
         return `| **[${project.name}](${link})**${website}${soon}<br>${tags} | ${project.use_when} | ${project.format} |`
       })
